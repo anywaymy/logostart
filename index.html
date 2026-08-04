@@ -45,7 +45,39 @@
             <div class="hidden md:flex items-center gap-2 text-xs font-semibold">
                 <a href="/" target="_blank"
                    class="flex items-center gap-1.5 bg-slate-50 hover:bg-slate-100 px-3 py-1.5 rounded-full border border-slate-200 text-slate-700 transition">
-                    <div class="w-5 h-5 rounded-full bg-purple-600 text-white flex items-center justify-center text-[10px] font-bold">M</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+                        <defs>
+                            <linearGradient id="maxBg14" x1="0%" y1="100%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#1DB9F8"/>
+                                <stop offset="50%" stop-color="#3B57F6"/>
+                                <stop offset="100%" stop-color="#8B1DFF"/>
+                            </linearGradient>
+                        </defs>
+
+                        <rect width="14" height="14" rx="3.5" fill="url(#maxBg14)"/>
+
+                        <path fill="#FFFFFF" fill-rule="evenodd" d="
+    M 7 1.5
+    C 10.04 1.5 12.5 3.96 12.5 7
+    C 12.5 10.04 10.04 12.5 7 12.5
+    C 6.01 12.5 5.08 12.24 4.28 11.78
+    C 3.4 12.3 2.5 12.4 2.2 12.4
+    C 2.1 12.4 2.05 12.3 2.1 12.2
+    C 2.45 11.7 2.7 11.1 2.65 10.4
+    C 1.93 9.47 1.5 8.29 1.5 7
+    C 1.5 3.96 3.96 1.5 7 1.5 Z
+
+    M 7 4.2
+    C 5.45 4.2 4.2 5.45 4.2 7
+    C 4.2 7.68 4.45 8.3 4.87 8.79
+    C 4.7 9.25 4.4 9.6 4.2 9.9
+    C 4.75 9.8 5.3 9.6 5.72 9.25
+    C 6.11 9.5 6.54 9.64 7 9.64
+    C 8.55 9.64 9.8 8.39 9.8 6.84
+    C 9.8 5.29 8.55 4.2 7 4.2 Z
+  "/>
+                    </svg>
+
                     <span class="font-bold">MAX</span>
                     <span class="text-[10px] text-slate-400 font-normal">Написать</span>
                     <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
@@ -116,7 +148,7 @@
         <a href="#contacts" class="block py-2 mobile-nav-link">КОНТАКТЫ</a>
         <div class="pt-2 border-t border-slate-100 flex flex-col gap-2">
             <a href="#contact-form" id="btn-open-callback-mobile"
-                    class="w-full py-3 rounded-full bg-[#f24d7c] text-white font-black uppercase text-xs tracking-wider text-center">
+               class="w-full py-3 rounded-full bg-[#f24d7c] text-white font-black uppercase text-xs tracking-wider text-center">
                 Заказать обратный звонок
             </a>
         </div>
@@ -125,7 +157,7 @@
 
 <!-- ГЛАВНЫЙ КОНТЕНТ -->
 <main>
-
+    <i class="fa-solid fa-house" style="display: inline-block !important;"></i>
     <!-- 1 HERO SECTION -->
     <section class="py-6 sm:py-8 bg-slate-50/50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-5">
@@ -136,24 +168,18 @@
 
                     <div class="absolute inset-0 pointer-events-none opacity-15 bg-[radial-gradient(#ffffff_2px,transparent_2px)] [background-size:24px_24px]"></div>
 
-                    <div class="relative z-10">
-                        <div class="inline-flex items-center gap-2 border border-white/40 bg-white/15 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider text-white">
-                            <span>ЗАНЯТИЕ ОНЛАЙН</span>
-                            <span class="opacity-60">|</span>
-                            <span class="bg-white/20 px-2 py-0.5 rounded-full">от 1700 ₽</span>
-                        </div>
-                    </div>
-
                     <div class="relative z-10 my-6 max-w-xl">
-                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight leading-[1.1] text-white">
+                        <h1 class="text-2xl sm:text-[30px] lg:text-[34px] font-black uppercase tracking-tight leading-[1.1] text-white">
                             ПРОФЕССИОНАЛЬНЫЕ <br>
-                            ЛОГОПЕДЫ <span
-                                class="bg-white/20 px-2 py-0.5 rounded-xl border border-white/30 text-white underline decoration-sky-300 decoration-4"><span
-                                id="hero-city-name">В СТАВРОПОЛЕ</span></span>
+                            ЛОГОПЕДЫ <br>
+                            <span
+                                    class="rounded-xl text-white underline decoration-sky-300 decoration-4"><span
+                                    id="hero-city-name">В СТАВРОПОЛЕ</span></span>
                         </h1>
 
                         <p class="mt-4 text-xs sm:text-sm font-bold uppercase tracking-wide text-rose-100 max-w-lg leading-relaxed">
-                            ЗАНЯТИЯ С ЛОГОПЕДОМ В СТАВРОПОЛЕ, ОНЛАЙН ЗАНЯТИЯ ИЗ ЛЮБОЙ ТОЧКИ МИРА
+                            ЗАНЯТИЯ С ЛОГОПЕДОМ В СТАВРОПОЛЕ, <br>
+                            ОНЛАЙН ЗАНЯТИЯ ИЗ ЛЮБОЙ ТОЧКИ МИРА
                         </p>
                     </div>
 
@@ -180,18 +206,18 @@
                 <div class="lg:col-span-4 flex flex-col gap-5">
 
                     <div class="bg-gradient-to-r from-[#5066d6] to-[#6376e5] rounded-[28px] text-white overflow-hidden shadow-lg flex-1 flex flex-row items-stretch min-h-[200px] max-h-[210px] border border-indigo-400/30 group hover:shadow-xl transition">
-                        <div class="w-2/5 sm:w-5/12 relative shrink-0 overflow-hidden">
+                        <div class="w-3/5 sm:w-6/12 relative shrink-0 overflow-hidden">
                             <img src="images/gallery/IMG_7021.PNG"
                                  alt="Логопед с ребёнком" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
                             <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#5066d6]/40"></div>
                         </div>
 
-                        <div class="w-3/5 sm:w-7/12 p-4 sm:p-5 flex flex-col justify-between relative z-10 bg-[#5066d6]">
+                        <div class="w-3/5 sm:w-6/12 p-4 sm:p-5 flex flex-col justify-between relative z-10 bg-[#5066d6]">
                             <div>
-                                <h3 class="text-sm sm:text-base font-black font-montserrat uppercase leading-tight tracking-tight text-white">
+                                <h3 class="text-sm xl:text-[18px] font-black font-montserrat uppercase leading-tight tracking-tight text-white">
                                     ЛОГОПЕДЫ И ДЕФЕКТОЛОГИ
                                 </h3>
-                                <p class="text-[11px] font-semibold text-indigo-100 leading-snug mt-1.5">
+                                <p class="text-[12px] font-semibold text-indigo-100 leading-snug mt-1.5">
                                     Индивидуальная коррекция звуков и запуск речи у детей.
                                 </p>
                             </div>
@@ -199,18 +225,18 @@
                     </div>
 
                     <div class="bg-gradient-to-r from-[#3e68c9] to-[#517ce4] rounded-[28px] text-white overflow-hidden shadow-lg flex-1 flex flex-row items-stretch min-h-[200px] max-h-[210px] border border-blue-400/30 group hover:shadow-xl transition">
-                        <div class="w-2/5 sm:w-5/12 relative shrink-0 overflow-hidden">
+                        <div class="w-3/5 sm:w-6/12 relative shrink-0 overflow-hidden">
                             <img src="images/gallery/IMG_7020.PNG"
                                  alt="Дети на занятии" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
                             <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#3e68c9]/40"></div>
                         </div>
 
-                        <div class="w-3/5 sm:w-7/12 p-4 sm:p-5 flex flex-col justify-between relative z-10 bg-[#3e68c9]">
+                        <div class="w-3/5 sm:w-6/12 p-4 sm:p-5 flex flex-col justify-between relative z-10 bg-[#3e68c9]">
                             <div>
-                                <h3 class="text-sm sm:text-base font-black font-montserrat uppercase leading-tight tracking-tight text-white">
+                                <h3 class="text-sm xl:text-[18px] font-black font-montserrat uppercase leading-tight tracking-tight text-white">
                                     ПОДГОТОВКА К ШКОЛЕ
                                 </h3>
-                                <p class="text-[11px] font-semibold text-blue-100 leading-snug mt-1.5">
+                                <p class="text-[12px] font-semibold text-blue-100 leading-snug mt-1.5">
                                     Развитие речи, внимания, мышления и нейрогимнастика.
                                 </p>
                             </div>
@@ -219,49 +245,6 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-                <div class="bg-[#f5fbcf] rounded-[30px] p-6 sm:p-8 relative overflow-hidden flex items-center justify-between border border-lime-200/80 shadow-2xs">
-                    <div class="max-w-[60%] space-y-3 relative z-10">
-                        <h2 class="text-2xl sm:text-3xl font-black uppercase text-slate-900 tracking-tight">
-                            ЛОГОПЕД ДЛЯ ДЕТЕЙ
-                        </h2>
-                        <div class="flex flex-wrap gap-2 pt-1">
-                  <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
-                    💻 Онлайн от 1700 ₽
-                  </span>
-                            <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
-                    🎓 Очно от 2600 ₽
-                  </span>
-                        </div>
-                    </div>
-                    <div class="w-32 h-32 sm:w-40 sm:h-40 relative shrink-0">
-                        <img src="images/gallery/IMG_7021.PNG"
-                             alt="Логопед для детей" class="w-full h-full object-cover rounded-full border-4 border-white shadow-md">
-                    </div>
-                </div>
-
-                <div class="bg-[#e2f7fc] rounded-[30px] p-6 sm:p-8 relative overflow-hidden flex items-center justify-between border border-sky-200/80 shadow-2xs">
-                    <div class="max-w-[60%] space-y-3 relative z-10">
-                        <h2 class="text-2xl sm:text-3xl font-black uppercase text-slate-900 tracking-tight">
-                            ЛОГОПЕД ДЛЯ ВЗРОСЛЫХ
-                        </h2>
-                        <div class="flex flex-wrap gap-2 pt-1">
-                  <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
-                    💻 Онлайн от 1700 ₽
-                  </span>
-                            <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
-                    🎓 Очно от 2600 ₽
-                  </span>
-                        </div>
-                    </div>
-                    <div class="w-32 h-32 sm:w-40 sm:h-40 relative shrink-0">
-                        <img src="images/gallery/IMG_1878.JPG"
-                             alt="Логопед для взрослых" class="w-full h-full object-cover rounded-full border-4 border-white shadow-md">
-                    </div>
-                </div>
-
-            </div>
 
             <div class="flex justify-center pt-4 pb-2">
                 <a href="#contact-form" id="btn-hero-main-cta"
@@ -607,7 +590,7 @@
                     <div class="space-y-4">
                         <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] flex items-center gap-2">
                             <i data-lucide="user-check" class="w-5 h-5 text-[#E31E24]"></i>
-                            <span>В «Логостарте» в одном центре работают:</span>
+                            <span>В центре «Логостарт» работают:</span>
                         </h3>
                         <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm font-bold text-slate-800">
                             <li class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200/60">
@@ -1705,7 +1688,7 @@
                         <div>
                             <span class="text-[11px] font-montserrat font-bold text-slate-500 uppercase block">Прямая связь с администратором:</span>
                             <a href="tel:+79624599090" class="text-lg sm:text-xl font-montserrat font-black text-[#004858] hover:text-[#E31E24] transition">
-                                7‒962‒459‒90‒90
+                                +7 (962) 459‒90‒90
                             </a>
                         </div>
                     </div>
@@ -1996,14 +1979,10 @@
 
                         <a href="https://vk.ru/logostart26" target="_blank"
                            class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-blue-600/20 hover:bg-blue-600 text-blue-300 hover:text-white border border-blue-500/40 text-xs font-montserrat font-bold transition">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="share-2" aria-hidden="true"
-                                 class="lucide lucide-share-2 w-3.5 h-3.5">
-                                <circle cx="18" cy="5" r="3"></circle>
-                                <circle cx="6" cy="12" r="3"></circle>
-                                <circle cx="18" cy="19" r="3"></circle>
-                                <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
-                                <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
+                            <svg xmlns="http://w3.org" viewBox="0 0 14 14" width="14" height="14">
+                                <rect width="14" height="14" rx="3" fill="#0077FF"/>
+                                <path d="M7.54 9.19c-2.29 0-3.58-1.56-3.63-4.16h1.11c.04 1.93.9 2.76 1.58 2.93V5.03h1.04v1.67c.65-.07 1.32-.78 1.54-1.67h1.04c-.17 1.07-.95 1.85-1.59 2.17.64.3 1.41.9 1.73 2h-1.12c-.26-.82-.92-1.45-1.77-1.53v1.53h-.65z"
+                                      fill="#FFFFFF"/>
                             </svg>
                             <span>ВКонтакте</span>
                         </a>
@@ -2013,19 +1992,44 @@
                   <span class="w-3.5 h-3.5 inline-flex items-center justify-center filter blur-[2.5px] group-hover:blur-none transition">
                     <i data-lucide="instagram" class="w-3.5 h-3.5"></i>
                   </span>
-                            <span>Instagram</span>
+                            <span>Insta</span>
                         </a>
 
                         <button id="btn-open-max-group"
                                 class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-sky-950 hover:bg-sky-900 text-slate-200 hover:text-white border border-sky-800 text-xs font-montserrat font-bold transition cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" aria-hidden="true"
-                                 class="lucide lucide-users w-3.5 h-3.5 text-sky-400">
-                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                                <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
-                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+                                <defs>
+                                    <linearGradient id="maxBg14" x1="0%" y1="100%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#1DB9F8"/>
+                                        <stop offset="50%" stop-color="#3B57F6"/>
+                                        <stop offset="100%" stop-color="#8B1DFF"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <rect width="14" height="14" rx="3.5" fill="url(#maxBg14)"/>
+
+                                <path fill="#FFFFFF" fill-rule="evenodd" d="
+    M 7 1.5
+    C 10.04 1.5 12.5 3.96 12.5 7
+    C 12.5 10.04 10.04 12.5 7 12.5
+    C 6.01 12.5 5.08 12.24 4.28 11.78
+    C 3.4 12.3 2.5 12.4 2.2 12.4
+    C 2.1 12.4 2.05 12.3 2.1 12.2
+    C 2.45 11.7 2.7 11.1 2.65 10.4
+    C 1.93 9.47 1.5 8.29 1.5 7
+    C 1.5 3.96 3.96 1.5 7 1.5 Z
+
+    M 7 4.2
+    C 5.45 4.2 4.2 5.45 4.2 7
+    C 4.2 7.68 4.45 8.3 4.87 8.79
+    C 4.7 9.25 4.4 9.6 4.2 9.9
+    C 4.75 9.8 5.3 9.6 5.72 9.25
+    C 6.11 9.5 6.54 9.64 7 9.64
+    C 8.55 9.64 9.8 8.39 9.8 6.84
+    C 9.8 5.29 8.55 4.2 7 4.2 Z
+  "/>
                             </svg>
+
                             <span>Макс</span>
                         </button>
                     </div>
@@ -2061,7 +2065,7 @@
                     </div>
                     <div>
                         <strong class="text-slate-200 block">Михайловск:</strong>
-                        <span>ул. Ленина, д. 182</span>
+                        <span>г. Михайловск, ул. Ленина, 167/2к3</span>
                     </div>
                     <div class="pt-1">
                         <a href="tel:+79624599090" class="text-rose-400 font-bold block hover:underline">+7 (962) 459-90-90</a>
