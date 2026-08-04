@@ -1,0 +1,2379 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Детский коррекционный центр «Логостарт» | Ставрополь и Михайловск</title>
+    <meta name="description"
+          content="Запуск и развитие речи у детей 3–7 лет в Ставрополе и Михайловске. Логопедия, дефектология, Томатис, БОС, логопедический массаж."/>
+
+    <link rel="shortcut icon" href="images/logostart3.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+<body class="min-h-screen bg-white text-slate-900 font-sans antialiased selection:bg-rose-100 selection:text-rose-900">
+
+<!-- ХЕДЕР -->
+<header class="sticky top-0 z-50 bg-white shadow-xs border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="flex items-center justify-between py-2.5 border-b border-slate-100/80 gap-3">
+
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl group-hover:scale-105 transition-transform duration-300">
+                    <img src="images/logostart3.png">
+                </div>
+                <div class="flex flex-col justify-center">
+                    <div class="flex items-baseline font-montserrat font-black italic tracking-tighter text-xl sm:text-2xl leading-none">
+                        <span class="text-[#004858]">LOGO</span><span class="text-[#E31E24]">Start</span>
+                        <span class="text-[10px] sm:text-xs text-[#E31E24] not-italic font-bold ml-0.5">®</span>
+                    </div>
+                    <span class="font-montserrat font-black text-[8px] sm:text-[9px] tracking-wider text-[#E31E24] uppercase leading-tight mt-0.5">
+                детский коррекционный центр
+              </span>
+                </div>
+            </a>
+
+            <div class="hidden md:flex items-center gap-2 text-xs font-semibold">
+                <a href="/" target="_blank"
+                   class="flex items-center gap-1.5 bg-slate-50 hover:bg-slate-100 px-3 py-1.5 rounded-full border border-slate-200 text-slate-700 transition">
+                    <div class="w-5 h-5 rounded-full bg-purple-600 text-white flex items-center justify-center text-[10px] font-bold">M</div>
+                    <span class="font-bold">MAX</span>
+                    <span class="text-[10px] text-slate-400 font-normal">Написать</span>
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                </a>
+
+
+            </div>
+
+            <div class="hidden lg:flex items-center gap-6">
+                <a href="tel:+79624599090" class="flex items-center gap-2 text-slate-800 font-black text-sm tracking-wide hover:text-rose-600 transition">
+                    <i data-lucide="phone" class="w-4 h-4 text-rose-500"></i>
+                    <span>8 962 459-90-90</span>
+                </a>
+
+                <div class="flex items-center gap-1.5 bg-slate-100 p-1 rounded-full text-xs font-bold">
+                    <button id="btn-branch-stavropol" class="px-3 py-1 rounded-full transition bg-white text-rose-600 shadow-2xs font-extrabold">
+                        Ставрополь
+                    </button>
+                    <button id="btn-branch-mikhailovsk" class="px-3 py-1 rounded-full transition text-slate-600 hover:text-slate-900">
+                        Михайловск
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+
+                <a href="#contact-form" id="btn-open-callback-header"
+                   class="hidden sm:inline-block px-5 py-2.5 rounded-full text-[8px] sm:text-[12px] font-black text-white bg-[#f24d7c] hover:bg-[#e03a6a] shadow-md shadow-pink-200 transition uppercase tracking-wider cursor-pointer">
+                    Заказать звонок
+                </a>
+                <button id="btn-toggle-mobile-menu" class="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <nav class="hidden lg:flex items-center justify-between py-2 text-[12px] font-black uppercase text-[#2b3956] tracking-tight">
+            <a href="#about" class="hover:text-[#d91d51] transition flex items-center gap-1">
+                <span>О КОМПАНИИ</span>
+                <i data-lucide="chevron-down" class="w-3 h-3 text-slate-400"></i>
+            </a>
+            <a href="#services" class="hover:text-[#d91d51] transition flex items-center gap-1">
+                <span>УСЛУГИ</span>
+                <i data-lucide="chevron-down" class="w-3 h-3 text-slate-400"></i>
+            </a>
+
+            <a href="#specialists" class="hover:text-[#d91d51] transition">СПЕЦИАЛИСТЫ</a>
+            <a href="#why-us" class="hover:text-[#d91d51] transition">ПОЧЕМУ МЫ</a>
+            <a href="#pricing" class="hover:text-[#d91d51] transition">НАШИ ЦЕНЫ</a>
+            <a href="#how-we-work" class="hover:text-[#d91d51] transition">КАК МЫ РАБОТАЕМ</a>
+            <a href="#reviews" class="hover:text-[#d91d51] transition">ОТЗЫВЫ</a>
+            <a href="#faq" class="hover:text-[#d91d51] transition">ОТВЕТЫ НА ВОПРОСЫ</a>
+            <a href="#contacts" class="hover:text-[#d91d51] transition">КОНТАКТЫ</a>
+        </nav>
+
+    </div>
+
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 text-sm font-bold text-slate-800">
+        <a href="#about" class="block py-2 mobile-nav-link">О КОМПАНИИ</a>
+        <a href="#services" class="block py-2 mobile-nav-link">УСЛУГИ</a>
+        <a href="#specialists" class="block py-2 mobile-nav-link">СПЕЦИАЛИСТЫ</a>
+        <a href="#why-us" class="block py-2 mobile-nav-link">ПОЧЕМУ МЫ</a>
+        <a href="#pricing" class="block py-2 mobile-nav-link">НАШИ ЦЕНЫ</a>
+        <a href="#how-we-work" class="block py-2 mobile-nav-link">КАК МЫ РАБОТАЕМ</a>
+        <a href="#reviews" class="block py-2 mobile-nav-link">ОТЗЫВЫ</a>
+        <a href="#faq" class="block py-2 mobile-nav-link">ОТВЕТЫ НА ВОПРОСЫ</a>
+        <a href="#contacts" class="block py-2 mobile-nav-link">КОНТАКТЫ</a>
+        <div class="pt-2 border-t border-slate-100 flex flex-col gap-2">
+            <a href="#contact-form" id="btn-open-callback-mobile"
+                    class="w-full py-3 rounded-full bg-[#f24d7c] text-white font-black uppercase text-xs tracking-wider text-center">
+                Заказать обратный звонок
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ГЛАВНЫЙ КОНТЕНТ -->
+<main>
+
+    <!-- 1 HERO SECTION -->
+    <section class="py-6 sm:py-8 bg-slate-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-5">
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-stretch">
+
+                <div class="lg:col-span-8 bg-gradient-to-br from-[#d91d51] via-[#e2275b] to-[#f03b6d] rounded-[32px] p-6 sm:p-10 lg:p-12 text-white relative overflow-hidden flex flex-col justify-between min-h-[440px] shadow-xl shadow-rose-200/50">
+
+                    <div class="absolute inset-0 pointer-events-none opacity-15 bg-[radial-gradient(#ffffff_2px,transparent_2px)] [background-size:24px_24px]"></div>
+
+                    <div class="relative z-10">
+                        <div class="inline-flex items-center gap-2 border border-white/40 bg-white/15 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider text-white">
+                            <span>ЗАНЯТИЕ ОНЛАЙН</span>
+                            <span class="opacity-60">|</span>
+                            <span class="bg-white/20 px-2 py-0.5 rounded-full">от 1700 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="relative z-10 my-6 max-w-xl">
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight leading-[1.1] text-white">
+                            ПРОФЕССИОНАЛЬНЫЕ <br>
+                            ЛОГОПЕДЫ <span
+                                class="bg-white/20 px-2 py-0.5 rounded-xl border border-white/30 text-white underline decoration-sky-300 decoration-4"><span
+                                id="hero-city-name">В СТАВРОПОЛЕ</span></span>
+                        </h1>
+
+                        <p class="mt-4 text-xs sm:text-sm font-bold uppercase tracking-wide text-rose-100 max-w-lg leading-relaxed">
+                            ЗАНЯТИЯ С ЛОГОПЕДОМ В СТАВРОПОЛЕ, ОНЛАЙН ЗАНЯТИЯ ИЗ ЛЮБОЙ ТОЧКИ МИРА
+                        </p>
+                    </div>
+
+                    <div class="relative z-10 flex flex-wrap items-center gap-3 pt-2">
+                        <a href="#contact-form" id="btn-hero-booking"
+                           class="bg-[#82c300] hover:bg-[#72ad00] text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-black text-xs sm:text-sm uppercase tracking-wider shadow-lg shadow-lime-900/20 transition transform active:scale-95 cursor-pointer flex items-center gap-2">
+                            <span>ЗАПИСАТЬСЯ НА БЕСПЛАТНОЕ ПРОБНОЕ ЗАНЯТИЕ</span>
+                        </a>
+
+                        <a href="#reviews"
+                           class="border-2 border-white/80 hover:bg-white/10 text-white px-6 py-3.5 sm:py-4 rounded-full font-bold text-xs uppercase tracking-wider transition backdrop-blur-xs cursor-pointer">
+                            ПОСМОТРЕТЬ ОТЗЫВЫ
+                        </a>
+                    </div>
+
+                    <div class="absolute right-0 bottom-0 top-0 w-1/2 hidden md:block pointer-events-none">
+                        <img id="hero-branch-img" src="images/gallery/IMG_7022.PNG.jpeg"
+                             alt="Логопед специалист" class="h-full w-full object-cover object-top rounded-r-[32px]"
+                             style="mask-image: linear-gradient(to right, transparent 0%, black 25%); -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%);">
+                    </div>
+
+                </div>
+
+                <div class="lg:col-span-4 flex flex-col gap-5">
+
+                    <div class="bg-gradient-to-r from-[#5066d6] to-[#6376e5] rounded-[28px] text-white overflow-hidden shadow-lg flex-1 flex flex-row items-stretch min-h-[200px] max-h-[210px] border border-indigo-400/30 group hover:shadow-xl transition">
+                        <div class="w-2/5 sm:w-5/12 relative shrink-0 overflow-hidden">
+                            <img src="images/gallery/IMG_7021.PNG"
+                                 alt="Логопед с ребёнком" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#5066d6]/40"></div>
+                        </div>
+
+                        <div class="w-3/5 sm:w-7/12 p-4 sm:p-5 flex flex-col justify-between relative z-10 bg-[#5066d6]">
+                            <div>
+                                <h3 class="text-sm sm:text-base font-black font-montserrat uppercase leading-tight tracking-tight text-white">
+                                    ЛОГОПЕДы И ДЕФЕКТОЛОГИ
+                                </h3>
+                                <p class="text-[11px] font-semibold text-indigo-100 leading-snug mt-1.5">
+                                    Индивидуальная коррекция звуков и запуск речи у детей.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#3e68c9] to-[#517ce4] rounded-[28px] text-white overflow-hidden shadow-lg flex-1 flex flex-row items-stretch min-h-[200px] max-h-[210px] border border-blue-400/30 group hover:shadow-xl transition">
+                        <div class="w-2/5 sm:w-5/12 relative shrink-0 overflow-hidden">
+                            <img src="images/gallery/IMG_7020.PNG"
+                                 alt="Дети на занятии" class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#3e68c9]/40"></div>
+                        </div>
+
+                        <div class="w-3/5 sm:w-7/12 p-4 sm:p-5 flex flex-col justify-between relative z-10 bg-[#3e68c9]">
+                            <div>
+                                <h3 class="text-sm sm:text-base font-black font-montserrat uppercase leading-tight tracking-tight text-white">
+                                    ПОДГОТОВКА К ШКОЛЕ
+                                </h3>
+                                <p class="text-[11px] font-semibold text-blue-100 leading-snug mt-1.5">
+                                    Развитие речи, внимания, мышления и нейрогимнастика.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--                <div class="lg:col-span-4 flex flex-col gap-5">-->
+
+                <!--                    <div class="bg-gradient-to-r from-[#626ed2] to-[#7382e8] rounded-[28px] p-6 text-white relative overflow-hidden flex-1 flex flex-col justify-between min-h-[210px] shadow-lg shadow-indigo-200/50">-->
+                <!--                        <div class="relative z-10 max-w-[65%]">-->
+                <!--                            <div class="w-9 h-9 rounded-full bg-rose-500 flex items-center justify-center text-white mb-3 shadow-sm">-->
+                <!--                                <i data-lucide="map-pin" class="w-5 h-5"></i>-->
+                <!--                            </div>-->
+                <!--                            <h3 class="text-base sm:text-lg font-black uppercase leading-tight tracking-tight">-->
+                <!--                                СПЕЦИАЛИСТЫ <br>НА КАРТЕ-->
+                <!--                            </h3>-->
+                <!--                            <p class="text-[11px] font-semibold text-indigo-100 uppercase mt-2 leading-tight">-->
+                <!--                                ВЫБЕРИТЕ СПЕЦИАЛИСТА РЯДОМ С ВАШИМ ДОМОМ-->
+                <!--                            </p>-->
+                <!--                        </div>-->
+
+                <!--                        <div class="absolute right-0 top-0 bottom-0 w-[45%] bg-cover bg-center opacity-90 rounded-r-[28px]"-->
+                <!--                             style="background-image: url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&amp;fit=crop&amp;q=80&amp;w=400');">-->
+                <!--                            <div class="absolute inset-0 bg-indigo-900/30"></div>-->
+                <!--                            <div class="absolute top-1/4 left-1/3 w-8 h-8 rounded-full border-2 border-white bg-rose-500 shadow-md flex items-center justify-center text-white text-[10px] font-bold">-->
+                <!--                                📍-->
+                <!--                            </div>-->
+                <!--                            <div class="absolute bottom-1/3 right-1/4 w-8 h-8 rounded-full border-2 border-white bg-sky-500 shadow-md flex items-center justify-center text-white text-[10px] font-bold">-->
+                <!--                                🎓-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="bg-gradient-to-r from-[#4d78d2] to-[#5b87e2] rounded-[28px] p-6 text-white relative overflow-hidden flex-1 flex flex-col justify-between min-h-[210px] shadow-lg shadow-blue-200/50">-->
+                <!--                        <div class="relative z-10 max-w-[65%]">-->
+                <!--                            <div class="w-9 h-9 rounded-full bg-rose-500 flex items-center justify-center text-white mb-3 shadow-sm">-->
+                <!--                                <i data-lucide="laptop" class="w-5 h-5"></i>-->
+                <!--                            </div>-->
+                <!--                            <h3 class="text-base sm:text-lg font-black uppercase leading-tight tracking-tight">-->
+                <!--                                БЕСПЛАТНОЕ <br>ОНЛАЙН ЗАНЯТИЕ-->
+                <!--                            </h3>-->
+                <!--                            <p class="text-[11px] font-semibold text-blue-100 uppercase mt-2 leading-tight">-->
+                <!--                                СКАЧАТЬ КУПОН-->
+                <!--                            </p>-->
+                <!--                        </div>-->
+
+                <!--                        <div class="absolute -right-2 top-1/2 -translate-y-1/2 w-[48%] bg-white text-slate-800 rounded-xl p-3 shadow-xl transform rotate-6 border-2 border-rose-400">-->
+                <!--                            <div class="text-[9px] font-black uppercase text-rose-600 border-b border-rose-100 pb-1">КУПОН НА ЗАНЯТИЕ</div>-->
+                <!--                            <div class="text-[8px] font-bold text-slate-500 mt-1">Бесплатная консультация</div>-->
+                <!--                            <button id="btn-download-coupon"-->
+                <!--                                    class="mt-2 w-full bg-sky-500 hover:bg-sky-600 text-white text-[8px] font-black uppercase py-1 rounded cursor-pointer">-->
+                <!--                                СКАЧАТЬ НА ПОЧТУ-->
+                <!--                            </button>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+
+                <!--                </div>-->
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                <div class="bg-[#f5fbcf] rounded-[30px] p-6 sm:p-8 relative overflow-hidden flex items-center justify-between border border-lime-200/80 shadow-2xs">
+                    <div class="max-w-[60%] space-y-3 relative z-10">
+                        <h2 class="text-2xl sm:text-3xl font-black uppercase text-slate-900 tracking-tight">
+                            ЛОГОПЕД ДЛЯ ДЕТЕЙ
+                        </h2>
+                        <div class="flex flex-wrap gap-2 pt-1">
+                  <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
+                    💻 Онлайн от 1700 ₽
+                  </span>
+                            <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
+                    🎓 Очно от 2600 ₽
+                  </span>
+                        </div>
+                    </div>
+                    <div class="w-32 h-32 sm:w-40 sm:h-40 relative shrink-0">
+                        <img src="images/gallery/IMG_7021.png"
+                             alt="Логопед для детей" class="w-full h-full object-cover rounded-full border-4 border-white shadow-md">
+                    </div>
+                </div>
+
+                <div class="bg-[#e2f7fc] rounded-[30px] p-6 sm:p-8 relative overflow-hidden flex items-center justify-between border border-sky-200/80 shadow-2xs">
+                    <div class="max-w-[60%] space-y-3 relative z-10">
+                        <h2 class="text-2xl sm:text-3xl font-black uppercase text-slate-900 tracking-tight">
+                            ЛОГОПЕД ДЛЯ ВЗРОСЛЫХ
+                        </h2>
+                        <div class="flex flex-wrap gap-2 pt-1">
+                  <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
+                    💻 Онлайн от 1700 ₽
+                  </span>
+                            <span class="inline-flex items-center gap-1 bg-sky-100/90 text-sky-800 text-xs font-extrabold px-3 py-1.5 rounded-full border border-sky-200">
+                    🎓 Очно от 2600 ₽
+                  </span>
+                        </div>
+                    </div>
+                    <div class="w-32 h-32 sm:w-40 sm:h-40 relative shrink-0">
+                        <img src="images/gallery/IMG_1878.JPG"
+                             alt="Логопед для взрослых" class="w-full h-full object-cover rounded-full border-4 border-white shadow-md">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">-->
+
+            <!--                <div class="bg-[#f0f2f8] hover:bg-[#e6eaf5] transition rounded-[24px] p-5 flex items-center justify-between border border-slate-200/60 shadow-2xs group cursor-pointer">-->
+            <!--                    <div>-->
+            <!--                        <h3 class="font-black uppercase text-sm sm:text-base text-slate-800 group-hover:text-rose-600 transition">-->
+            <!--                            ЗАНЯТИЯ ОНЛАЙН-->
+            <!--                        </h3>-->
+            <!--                    </div>-->
+            <!--                    <div class="w-16 h-16 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-xs">-->
+            <!--                        <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&amp;fit=crop&amp;q=80&amp;w=200" alt="Онлайн"-->
+            <!--                             class="w-full h-full object-cover">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+
+            <!--                <div class="bg-[#dbf3fa] hover:bg-[#cdecf5] transition rounded-[24px] p-5 flex items-center justify-between border border-sky-200/60 shadow-2xs group cursor-pointer">-->
+            <!--                    <div>-->
+            <!--                        <h3 class="font-black uppercase text-sm sm:text-base text-slate-800 group-hover:text-rose-600 transition">-->
+            <!--                            ВЫЕЗДНАЯ СЛУЖБА-->
+            <!--                        </h3>-->
+            <!--                    </div>-->
+            <!--                    <div class="w-16 h-16 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-xs">-->
+            <!--                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&amp;fit=crop&amp;q=80&amp;w=200" alt="Выезд"-->
+            <!--                             class="w-full h-full object-cover">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+
+            <!--                <div class="bg-[#f0e8f7] hover:bg-[#e6dbf2] transition rounded-[24px] p-5 flex items-center justify-between border border-purple-200/60 shadow-2xs group cursor-pointer">-->
+            <!--                    <div>-->
+            <!--                        <h3 class="font-black uppercase text-sm sm:text-base text-slate-800 group-hover:text-rose-600 transition">-->
+            <!--                            В ЛОГОПЕДИЧЕСКОМ КАБИНЕТЕ-->
+            <!--                        </h3>-->
+            <!--                    </div>-->
+            <!--                    <div class="w-16 h-16 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-xs">-->
+            <!--                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;q=80&amp;w=200" alt="Кабинет"-->
+            <!--                             class="w-full h-full object-cover">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+
+            <!--                <div class="bg-[#fbf2e6] hover:bg-[#f5e7d3] transition rounded-[24px] p-5 flex items-center justify-between border border-amber-200/60 shadow-2xs group cursor-pointer">-->
+            <!--                    <div>-->
+            <!--                        <h3 class="font-black uppercase text-sm sm:text-base text-slate-800 group-hover:text-rose-600 transition">-->
+            <!--                            УСЛУГИ ПСИХОЛОГА-->
+            <!--                        </h3>-->
+            <!--                    </div>-->
+            <!--                    <div class="w-16 h-16 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-xs">-->
+            <!--                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&amp;fit=crop&amp;q=80&amp;w=200" alt="Психолог"-->
+            <!--                             class="w-full h-full object-cover">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+
+            <!--                <div class="bg-[#f6e9e9] hover:bg-[#eedbdb] transition rounded-[24px] p-5 flex items-center justify-between border border-rose-200/60 shadow-2xs group cursor-pointer">-->
+            <!--                    <div>-->
+            <!--                        <h3 class="font-black uppercase text-sm sm:text-base text-slate-800 group-hover:text-rose-600 transition">-->
+            <!--                            ИСПРАВЛЕНИЕ АКЦЕНТА-->
+            <!--                        </h3>-->
+            <!--                    </div>-->
+            <!--                    <div class="w-16 h-16 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-xs">-->
+            <!--                        <img src="https://images.unsplash.com/photo-1580894732413-a70427463368?auto=format&amp;fit=crop&amp;q=80&amp;w=200" alt="Акцент"-->
+            <!--                             class="w-full h-full object-cover">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+
+            <!--                <div class="bg-[#e9f0f9] hover:bg-[#dbe6f5] transition rounded-[24px] p-5 flex items-center justify-between border border-sky-200/60 shadow-2xs group cursor-pointer">-->
+            <!--                    <div>-->
+            <!--                        <h3 class="font-black uppercase text-sm sm:text-base text-slate-800 group-hover:text-rose-600 transition">-->
+            <!--                            ПОДГОТОВКА К ШКОЛЕ-->
+            <!--                        </h3>-->
+            <!--                    </div>-->
+            <!--                    <div class="w-16 h-16 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-xs">-->
+            <!--                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&amp;fit=crop&amp;q=80&amp;w=200"-->
+            <!--                             alt="Подготовка к школе" class="w-full h-full object-cover">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+
+            <!--            </div>-->
+
+            <div class="flex justify-center pt-4 pb-2">
+                <a href="#contact-form" id="btn-hero-main-cta"
+                   class="bg-[#f24d7c] hover:bg-[#e03a6a] text-white text-sm sm:text-base font-black uppercase tracking-wider px-10 py-8 rounded-full shadow-xl shadow-pink-200 transition transform active:scale-95 cursor-pointer">
+                    ЗАПИСАТЬСЯ НА ЗАНЯТИЕ
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 2 О КОМПАНИИ -->
+    <section id="about" class="py-16 sm:py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-black text-[#004858] tracking-tight mb-16">
+                    О КОМПАНИИ
+                </h2>
+                <!--                <p class="mt-3 text-slate-600 text-[20px]">-->
+                <!--                    Заботимся о развитии речи детей с 2008 года по авторским и аппаратным методикам.-->
+                <!--                    «Логостарт» — это специализированные коррекционные центры в Ставрополе и Михайловске.-->
+                <!--                </p>-->
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-12">
+                <div class="lg:col-span-7 bg-[#f8fafc] rounded-[32px] p-6 sm:p-10 border border-slate-200/80 shadow-md space-y-6">
+                    <p class="text-sm sm:text-base text-slate-700 leading-relaxed font-medium">
+                        «Логостарт» — сеть специализированных центров коррекционной помощи в Ставрополе и Михайловске, где работают с детьми любого уровня
+                        речевых сложностей: от постановки отдельных звуков до комплексных нарушений на фоне задержки речевого развития, ЗПР и других
+                        особенностей.
+                    </p>
+
+                    <div class="p-5 rounded-2xl bg-rose-50/80 border-l-4 border-[#E31E24] text-slate-800 text-xs sm:text-sm font-bold leading-relaxed shadow-2xs">
+                        Мы не делим детей на «простых» и «сложных». К нам приходят семьи, которым нужен профессиональный, доказательный и честный подход к
+                        развитию речи ребёнка.
+                    </div>
+
+                    <p class="text-xs sm:text-base text-slate-600 leading-relaxed font-medium">
+                        «Логостарт» - экспертный центр комплексной коррекционной помощи с доказательным подходом. Мы не ставим "ярлыки" и не обещаем чудес за 3
+                        дня. Мы выстраиваем долгосрочный маршрут развития вашего ребенка: от точной двойной диагностики у ведущих специалистов до успешной
+                        социальной адаптации и подготовки к школе.
+                    </p>
+                </div>
+
+                <!-- Right Card: Наш подход -->
+                <div class="lg:col-span-5 bg-gradient-to-br from-[#004858] to-[#002e5a] rounded-[32px] p-6 sm:p-10 text-white shadow-xl flex flex-col justify-between border border-sky-900">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-[#E31E24] flex items-center justify-center text-white mb-6 shadow-md">
+                            <i data-lucide="shield-check" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-montserrat font-black uppercase text-amber-300 mb-4">
+                            Наш подход: комплексность и доказательность
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-200 leading-relaxed font-medium">
+                            Мы стали одними из первых в Ставрополе, кто начал оказывать комплексную коррекционную помощь, объединяя в единый маршрут работу
+                            разных специалистов. Потому что речь — это не только «звуки». За речевыми сложностями часто стоят нарушения сенсорной интеграции,
+                            артикуляционного праксиса, общего речевого развития.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-white/10 mt-6 flex items-center justify-between">
+                        <span class="text-xs font-bold text-rose-200 uppercase tracking-wider">Доказательная логопедия</span>
+                        <span class="text-xs font-black bg-[#82c300] text-white px-3.5 py-1 rounded-full">15+ лет практики</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-16">-->
+            <!--                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center relative">-->
+            <!--                    <div class="w-8 h-8 rounded-full bg-rose-500 text-white font-black text-sm flex items-center justify-center mx-auto mb-3">1</div>-->
+            <!--                    <h3 class="font-bold text-sm text-slate-900 mb-1">Диагностика</h3>-->
+            <!--                    <p class="text-xs text-slate-500">45-мин комплексное обследование речи и внимания</p>-->
+            <!--                </div>-->
+            <!--                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center relative">-->
+            <!--                    <div class="w-8 h-8 rounded-full bg-rose-500 text-white font-black text-sm flex items-center justify-center mx-auto mb-3">2</div>-->
+            <!--                    <h3 class="font-bold text-sm text-slate-900 mb-1">Маршрут</h3>-->
+            <!--                    <p class="text-xs text-slate-500">Персональный план занятий и массажа</p>-->
+            <!--                </div>-->
+            <!--                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center relative">-->
+            <!--                    <div class="w-8 h-8 rounded-full bg-rose-500 text-white font-black text-sm flex items-center justify-center mx-auto mb-3">3</div>-->
+            <!--                    <h3 class="font-bold text-sm text-slate-900 mb-1">Уроки & Массаж</h3>-->
+            <!--                    <p class="text-xs text-slate-500">Постановка звуков и снятие мышечного тонуса</p>-->
+            <!--                </div>-->
+            <!--                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center relative">-->
+            <!--                    <div class="w-8 h-8 rounded-full bg-rose-500 text-white font-black text-sm flex items-center justify-center mx-auto mb-3">4</div>-->
+            <!--                    <h3 class="font-bold text-sm text-slate-900 mb-1">Томатис / БОС</h3>-->
+            <!--                    <p class="text-xs text-slate-500">Аппаратное ускорение восприятия в 2-3 раза</p>-->
+            <!--                </div>-->
+            <!--                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center relative">-->
+            <!--                    <div class="w-8 h-8 rounded-full bg-emerald-500 text-white font-black text-sm flex items-center justify-center mx-auto mb-3">5</div>-->
+            <!--                    <h3 class="font-bold text-sm text-slate-900 mb-1">Чистая речь</h3>-->
+            <!--                    <p class="text-xs text-slate-500">Автоматизация речи в детском саду и дома</p>-->
+            <!--                </div>-->
+            <!--            </div>-->
+
+            <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-8 sm:p-10 text-white grid grid-cols-2 lg:grid-cols-4 gap-8 shadow-xl">
+                <div class="text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-amber-300">18+ лет</div>
+                    <div class="text-xs text-slate-300 mt-1">Опыта в логопедии</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-rose-400">1 000+</div>
+                    <div class="text-xs text-slate-300 mt-1">Счастливых семей</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-emerald-400">2 филиала</div>
+                    <div class="text-xs text-slate-300 mt-1">Ставрополь & Михайловск</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-sky-400">98%</div>
+                    <div class="text-xs text-slate-300 mt-1">Успешных выпусков</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3 СЕРВИСЫ -->
+    <section id="services" class="py-16 sm:py-24 bg-[#f8fafc] relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] tracking-tight leading-tight">
+                    НАШИ УСЛУГИ
+                </h2>
+            </div>
+
+            <div id="services-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 sm:p-8 rounded-[28px] border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-montserrat font-black text-[#f24d7c] bg-rose-50 border border-rose-100 px-3.5 py-1.5 rounded-full uppercase">
+              от 1200 ₽ / 45 мин
+            </span>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] group-hover:bg-[#f24d7c] group-hover:text-white transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true"
+                                     class="lucide lucide-sparkles w-5 h-5">
+                                    <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path>
+                                    <path d="M20 2v4"></path>
+                                    <path d="M22 4h-4"></path>
+                                    <circle cx="4" cy="20" r="2"></circle>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black text-[#004858] mb-2 leading-snug uppercase">
+                            Комплексная диагностика речи
+                        </h3>
+
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
+                            Первичное обследование логопедом и дефектологом
+                        </p>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+                        <a href="#contact-form" data-service-detail="diagnostics"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-[#004858] bg-slate-100 hover:bg-slate-200 transition cursor-pointer">
+                            Подробнее
+                        </a>
+                        <a href="#contact-form" data-service-book="diagnostics"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-[28px] border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-montserrat font-black text-[#f24d7c] bg-rose-50 border border-rose-100 px-3.5 py-1.5 rounded-full uppercase">
+              от 1000 ₽ / 30 мин
+            </span>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] group-hover:bg-[#f24d7c] group-hover:text-white transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mic" aria-hidden="true"
+                                     class="lucide lucide-mic w-5 h-5">
+                                    <path d="M12 19v3"></path>
+                                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                    <rect x="9" y="2" width="6" height="13" rx="3"></rect>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black text-[#004858] mb-2 leading-snug uppercase">
+                            Занятие с логопедом
+                        </h3>
+
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
+                            Постановка звуков Р, Л, Ш, Ж, развитие связной речи
+                        </p>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+                        <a href="#contact-form" data-service-detail="speech-correction"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-[#004858] bg-slate-100 hover:bg-slate-200 transition cursor-pointer">
+                            Подробнее
+                        </a>
+                        <a href="#contact-form" data-service-book="speech-correction"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-[28px] border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-montserrat font-black text-[#f24d7c] bg-rose-50 border border-rose-100 px-3.5 py-1.5 rounded-full uppercase">
+              от 1200 ₽ / 40 мин
+            </span>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] group-hover:bg-[#f24d7c] group-hover:text-white transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="brain" aria-hidden="true"
+                                     class="lucide lucide-brain w-5 h-5">
+                                    <path d="M12 18V5"></path>
+                                    <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"></path>
+                                    <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path>
+                                    <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path>
+                                    <path d="M18 18a4 4 0 0 0 2-7.464"></path>
+                                    <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path>
+                                    <path d="M6 18a4 4 0 0 1-2-7.464"></path>
+                                    <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black text-[#004858] mb-2 leading-snug uppercase">
+                            Занятие с дефектологом
+                        </h3>
+
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
+                            Развитие внимания, памяти, мышления и моторики
+                        </p>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+                        <a href="#contact-form" data-service-detail="defectology"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-[#004858] bg-slate-100 hover:bg-slate-200 transition cursor-pointer">
+                            Подробнее
+                        </a>
+                        <a href="#contact-form" data-service-book="defectology"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-[28px] border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-montserrat font-black text-[#f24d7c] bg-rose-50 border border-rose-100 px-3.5 py-1.5 rounded-full uppercase">
+              от 1300 ₽ / 30 мин
+            </span>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] group-hover:bg-[#f24d7c] group-hover:text-white transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="heart" aria-hidden="true"
+                                     class="lucide lucide-heart w-5 h-5">
+                                    <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black text-[#004858] mb-2 leading-snug uppercase">
+                            Логопедический массаж
+                        </h3>
+
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
+                            Аппаратный и зондовый массаж мышц лица и языка
+                        </p>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+                        <a href="#contact-form" data-service-detail="massage"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-[#004858] bg-slate-100 hover:bg-slate-200 transition cursor-pointer">
+                            Подробнее
+                        </a>
+                        <a href="#contact-form" data-service-book="massage"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-[28px] border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-montserrat font-black text-[#f24d7c] bg-rose-50 border border-rose-100 px-3.5 py-1.5 rounded-full uppercase">
+              от 1800 ₽ / 60 мин
+            </span>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] group-hover:bg-[#f24d7c] group-hover:text-white transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="headphones" aria-hidden="true"
+                                     class="lucide lucide-headphones w-5 h-5">
+                                    <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black text-[#004858] mb-2 leading-snug uppercase">
+                            Метод Томатис (Tomatis®)
+                        </h3>
+
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
+                            Нейросенсорная слуховая стимуляция коры мозга
+                        </p>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+                        <a href="#contact-form" data-service-detail="tomatis"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-[#004858] bg-slate-100 hover:bg-slate-200 transition cursor-pointer">
+                            Подробнее
+                        </a>
+                        <a href="#contact-form" data-service-book="tomatis"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-[28px] border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition group">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-montserrat font-black text-[#f24d7c] bg-rose-50 border border-rose-100 px-3.5 py-1.5 rounded-full uppercase">
+              от 1600 ₽ / 30 мин
+            </span>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] group-hover:bg-[#f24d7c] group-hover:text-white transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="activity" aria-hidden="true"
+                                     class="lucide lucide-activity w-5 h-5">
+                                    <path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black text-[#004858] mb-2 leading-snug uppercase">
+                            БОС-терапия (Биоуправление)
+                        </h3>
+
+                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
+                            Игровые тренировки речевого дыхания и плавности
+                        </p>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+                        <a href="#contact-form" data-service-detail="bos"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-[#004858] bg-slate-100 hover:bg-slate-200 transition cursor-pointer">
+                            Подробнее
+                        </a>
+                        <a href="#contact-form" data-service-book="bos"
+                           class="flex-1 text-center py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4 СПЕЦИАЛИСТЫ -->
+    <section id="specialists" class="py-16 sm:py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] tracking-tight leading-tight">
+                    НАШИ СПЕЦИАЛИСТЫ
+                </h2>
+            </div>
+
+            <div class="bg-white rounded-[32px] p-6 sm:p-10 border border-slate-200/80 shadow-lg mb-12 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="space-y-4">
+                        <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] flex items-center gap-2">
+                            <i data-lucide="user-check" class="w-5 h-5 text-[#E31E24]"></i>
+                            <span>В «Логостарте» в одном центре работают:</span>
+                        </h3>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm font-bold text-slate-800">
+                            <li class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200/60">
+                                <span class="w-2 h-2 rounded-full bg-[#E31E24]"></span>
+                                <span>Логопеды</span>
+                            </li>
+                            <li class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200/60">
+                                <span class="w-2 h-2 rounded-full bg-[#E31E24]"></span>
+                                <span>Дефектологи</span>
+                            </li>
+                            <li class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200/60">
+                                <span class="w-2 h-2 rounded-full bg-[#E31E24]"></span>
+                                <span>Нейропсихологи</span>
+                            </li>
+                            <li class="flex items-center gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200/60">
+                                <span class="w-2 h-2 rounded-full bg-[#E31E24]"></span>
+                                <span>Специалисты по логомассажу</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] flex items-center gap-2">
+                            <i data-lucide="target" class="w-5 h-5 text-[#82c300]"></i>
+                            <span>Уже более 15-ти лет мы работаем с такими запросами как:</span>
+                        </h3>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm font-bold text-slate-800">
+                            <li class="flex items-center gap-2 bg-lime-50 p-3 rounded-xl border border-lime-200/60">
+                                <i data-lucide="check-circle" class="w-4 h-4 text-[#82c300]"></i>
+                                <span>Постановка звуков</span>
+                            </li>
+                            <li class="flex items-center gap-2 bg-lime-50 p-3 rounded-xl border border-lime-200/60">
+                                <i data-lucide="check-circle" class="w-4 h-4 text-[#82c300]"></i>
+                                <span>Запуск речи</span>
+                            </li>
+                            <li class="flex items-center gap-2 bg-lime-50 p-3 rounded-xl border border-lime-200/60">
+                                <i data-lucide="check-circle" class="w-4 h-4 text-[#82c300]"></i>
+                                <span>Аутизм, ЗРР, РАС</span>
+                            </li>
+                            <li class="flex items-center gap-2 bg-lime-50 p-3 rounded-xl border border-lime-200/60">
+                                <i data-lucide="check-circle" class="w-4 h-4 text-[#82c300]"></i>
+                                <span>СДВГ</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="p-5 rounded-2xl bg-sky-50 border border-sky-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-[#004858] text-white flex items-center justify-center shrink-0">
+                            <i data-lucide="cpu" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs sm:text-sm font-montserrat font-black uppercase text-[#004858]">Аппаратные технологии в центре</h4>
+                            <p class="text-base text-slate-600 font-medium mt-0.5">Так же в центре имеются аппаратные технологии (Tomatis®, Forbrain®, БОС)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-4 pt-4 border-t border-slate-200/80 text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+                    <p class="p-4 rounded-xl bg-slate-50 border-l-4 border-[#004858]">
+                        <strong>Единая командная работа:</strong> Это значит, что ваш ребёнок не будет «ходить по кругу» от одного кабинета к другому. Мы
+                        выстраиваем
+                        единый коррекционный маршрут, где все специалисты работают согласованно, а не дублируют друг друга.
+                    </p>
+                    <p class="p-4 rounded-xl bg-rose-50/60 border-l-4 border-[#E31E24]">
+                        <strong>Важно:</strong> мы не используем сомнительные «авторские» методики без научной основы. В нашей работе — только комплексные
+                        программы с
+                        доказанной эффективностью, проверенные многолетней практикой и подтверждённые результатами.
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="specialists-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-[28px] p-6 sm:p-8 border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition">
+                    <div>
+                        <div class="relative rounded-[22px] overflow-hidden mb-5 h-64 bg-slate-100">
+                            <img src="images/specialists/1.jpg"
+                                 alt="Любченко Анна Георгиевна" class="w-full h-full object-cover">
+                            <div class="absolute bottom-3 left-3 bg-[#004858]/90 backdrop-blur-md text-amber-300 text-[11px] font-montserrat font-black px-3.5 py-1.5 rounded-full uppercase">
+                                Опыт 18 лет
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black uppercase text-[#004858] mb-1 leading-snug">Любченко Анна Георгиевна</h3>
+                        <p class="text-xs font-bold text-[#f24d7c] mb-3 font-montserrat uppercase">Основатель центра, логопед-дефектолог высшей категории</p>
+
+                        <p class="text-xs text-slate-600 mb-4 leading-relaxed font-medium">Автор собственной методики комплексного запуска речи у детей 3–5 лет.
+                            Более 1 000 успешных выпусков за 18 лет работы.</p>
+
+                        <div class="space-y-1.5 text-[11px] text-slate-500 border-t border-slate-100 pt-3">
+                            <div><strong class="text-slate-800">Специализация:</strong> ЗРР, ЗПРР, АСД, Аппаратный метод Томатис</div>
+                            <div><strong class="text-slate-800">Образование:</strong> СГПИ, спецфакультет специальной педагогики и психологии</div>
+                        </div>
+                    </div>
+
+                    <div class="pt-5 mt-4 border-t border-slate-100">
+                        <a href="#contact-form" data-specialist-book="Любченко Анна Георгиевна"
+                           class="inline-block text-center w-full py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[28px] p-6 sm:p-8 border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition">
+                    <div>
+                        <div class="relative rounded-[22px] overflow-hidden mb-5 h-64 bg-slate-100">
+                            <img src="images/specialists/1.jpg"
+                                 alt="Колосова Елена Викторовна" class="w-full h-full object-cover">
+                            <div class="absolute bottom-3 left-3 bg-[#004858]/90 backdrop-blur-md text-amber-300 text-[11px] font-montserrat font-black px-3.5 py-1.5 rounded-full uppercase">
+                                Опыт 12 лет
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black uppercase text-[#004858] mb-1 leading-snug">Колосова Елена Викторовна</h3>
+                        <p class="text-xs font-bold text-[#f24d7c] mb-3 font-montserrat uppercase">Ведущий логопед-афазиолог</p>
+
+                        <p class="text-xs text-slate-600 mb-4 leading-relaxed font-medium">Специализируется на тяжелых нарушениях звукопроизношения и
+                            логопедическом массаже при повышенном тонусе.</p>
+
+                        <div class="space-y-1.5 text-[11px] text-slate-500 border-t border-slate-100 pt-3">
+                            <div><strong class="text-slate-800">Специализация:</strong> Коррекция дизартрии, зондовый логомассаж</div>
+                            <div><strong class="text-slate-800">Образование:</strong> Ставропольский государственный университет</div>
+                        </div>
+                    </div>
+
+                    <div class="pt-5 mt-4 border-t border-slate-100">
+                        <a href="#contact-form" data-specialist-book="Колосова Елена Викторовна"
+                           class="inline-block text-center w-full py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[28px] p-6 sm:p-8 border border-slate-200/80 shadow-md flex flex-col justify-between hover:shadow-xl transition">
+                    <div>
+                        <div class="relative rounded-[22px] overflow-hidden mb-5 h-64 bg-slate-100">
+                            <img src="images/specialists/1.jpg"
+                                 alt="Смирнова Ольга Александровна" class="w-full h-full object-cover">
+                            <div class="absolute bottom-3 left-3 bg-[#004858]/90 backdrop-blur-md text-amber-300 text-[11px] font-montserrat font-black px-3.5 py-1.5 rounded-full uppercase">
+                                Опыт 9 лет
+                            </div>
+                        </div>
+
+                        <h3 class="text-xl font-montserrat font-black uppercase text-[#004858] mb-1 leading-snug">Смирнова Ольга Александровна</h3>
+                        <p class="text-xs font-bold text-[#f24d7c] mb-3 font-montserrat uppercase">Специалист по БОС и Форбрэйн</p>
+
+                        <p class="text-xs text-slate-600 mb-4 leading-relaxed font-medium">Эксперт по игровым компьютерным технологиям биоуправления. Помогает
+                            побеждать заикание и речевую тревожность.</p>
+
+                        <div class="space-y-1.5 text-[11px] text-slate-500 border-t border-slate-100 pt-3">
+                            <div><strong class="text-slate-800">Специализация:</strong> БОС-терапия, подготовка к школе</div>
+                            <div><strong class="text-slate-800">Образование:</strong> СГПИ, детская нейропсихология</div>
+                        </div>
+                    </div>
+
+                    <div class="pt-5 mt-4 border-t border-slate-100">
+                        <a href="#contact-form" data-specialist-book="Смирнова Ольга Александровна"
+                           class="inline-block text-center w-full py-3.5 rounded-full font-montserrat font-black text-xs uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] transition shadow-md cursor-pointer">
+                            Записаться
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="certificates-carousel-container">
+                <div class="bg-white rounded-[32px] p-8 sm:p-10 border border-slate-200/80 shadow-lg my-12">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
+                        <div>
+                            <h3 class="text-2xl sm:text-3xl font-montserrat font-black uppercase text-[#004858]">
+                                Подтверждённая квалификация специалистов
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="cert-items-grid">
+
+                        <div class="bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                            <div class="overflow-hidden rounded-xl bg-white border border-slate-200 mb-4 h-64 flex items-center justify-center">
+                                <img src="images/certificates/1.png" alt="Сертификат Tomatis® Level 1 Practitioner"
+                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                            </div>
+                            <div>
+                                <span class="text-[10px] font-montserrat font-black text-[#E31E24] uppercase tracking-wider block mb-1">undefined (undefined)</span>
+                                <h4 class="text-xs sm:text-sm font-montserrat font-black text-[#004858] uppercase leading-snug mb-1">Сертификат Tomatis® Level 1
+                                    Practitioner</h4>
+                                <p class="text-[11px] text-slate-500 font-medium">undefined</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                            <div class="overflow-hidden rounded-xl bg-white border border-slate-200 mb-4 h-64 flex items-center justify-center">
+                                <img src="images/certificates/1.png" alt="Диплом с отличием по специальной педагогике и логопедии"
+                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                            </div>
+                            <div>
+                                <span class="text-[10px] font-montserrat font-black text-[#E31E24] uppercase tracking-wider block mb-1">undefined (undefined)</span>
+                                <h4 class="text-xs sm:text-sm font-montserrat font-black text-[#004858] uppercase leading-snug mb-1">Диплом с отличием по
+                                    специальной педагогике и логопедии</h4>
+                                <p class="text-[11px] text-slate-500 font-medium">undefined</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                            <div class="overflow-hidden rounded-xl bg-white border border-slate-200 mb-4 h-64 flex items-center justify-center">
+                                <img src="images/certificates/1.png" alt="Сертификат специалиста по зондовому логомассажу"
+                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                            </div>
+                            <div>
+                                <span class="text-[10px] font-montserrat font-black text-[#E31E24] uppercase tracking-wider block mb-1">undefined (undefined)</span>
+                                <h4 class="text-xs sm:text-sm font-montserrat font-black text-[#004858] uppercase leading-snug mb-1">Сертификат специалиста по
+                                    зондовому логомассажу</h4>
+                                <p class="text-[11px] text-slate-500 font-medium">undefined</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5 ПОЧЕМУ МЫ -->
+    <section id="why-us" class="py-16 sm:py-24 bg-[#f8fafc] relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] tracking-tight leading-tight">
+                    Почему родители выбирают «Логостарт»
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <div class="bg-[#f8fafc] rounded-[28px] p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition flex items-start gap-5">
+                    <div class="w-14 h-14 rounded-2xl bg-rose-50 border border-rose-100 text-[#E31E24] flex items-center justify-center shrink-0 shadow-xs">
+                        <i data-lucide="search" class="w-7 h-7"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] mb-2 leading-snug">
+                            Честная диагностика — фундамент коррекции
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                            Перед началом занятий каждый ребёнок проходит углублённую диагностику у руководителей центра или ведущего специалиста. Диагностика
+                            показывает истинную причину сложностей и помогает составить точный маршрут.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[#f8fafc] rounded-[28px] p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition flex items-start gap-5">
+                    <div class="w-14 h-14 rounded-2xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center shrink-0 shadow-xs">
+                        <i data-lucide="user-check" class="w-7 h-7"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] mb-2 leading-snug">
+                            Возможность выбора специалиста
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                            Если вы хотите заниматься с конкретным специалистом, мы предоставляем такую возможность. Это помогает равномерно распределять
+                            нагрузку и защищает наших лучших сотрудников от выгорания.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[#f8fafc] rounded-[28px] p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition flex items-start gap-5">
+                    <div class="w-14 h-14 rounded-2xl bg-lime-50 border border-lime-100 text-[#82c300] flex items-center justify-center shrink-0 shadow-xs">
+                        <i data-lucide="bar-chart-3" class="w-7 h-7"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] mb-2 leading-snug">
+                            Промежуточная диагностика — бесплатно
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                            Каждые 3–4 месяца в рамках занятий специалист проводит повторную диагностику и корректирует маршрут. Вы не платите за это
+                            дополнительно — это часть нашей работы.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[#f8fafc] rounded-[28px] p-8 border border-slate-200/80 shadow-sm hover:shadow-md transition flex items-start gap-5">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-100 text-amber-600 flex items-center justify-center shrink-0 shadow-xs">
+                        <i data-lucide="badge-percent" class="w-7 h-7"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-montserrat font-black uppercase text-[#004858] mb-2 leading-snug">
+                            Прозрачная ценовая политика
+                        </h3>
+                        <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                            Мы гибко подходим к бюджету семьи: если полный абонемент на 12 занятий сейчас не подходит, мы можем начать с 8 занятий, сохранив
+                            регулярность — а она в коррекции важнее всего.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6 ЦЕНЫ -->
+    <section id="pricing" class="py-16 sm:py-20 bg-[#003b71] bg-gradient-to-r from-[#002e5a] via-[#003d7a] to-[#002e5a] text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+                <h2 class="text-2xl sm:text-4xl font-black font-montserrat uppercase tracking-wider text-white">
+                    ЦЕНЫ И АКЦИИ
+                </h2>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-12 mb-8 sm:mb-10 text-center">
+
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-xl bg-[#f24d7c] flex items-center justify-center text-white shrink-0 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="wallet" aria-hidden="true" class="lucide lucide-wallet w-4.5 h-4.5">
+                            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"></path>
+                            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"></path>
+                        </svg>
+                    </div>
+                    <span class="text-[11px] sm:text-xs font-black font-montserrat uppercase tracking-wider text-white">
+                ОПЛАТА АБОНЕМЕНТА В РАССРОЧКУ
+              </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-xl bg-[#f24d7c] flex items-center justify-center text-white shrink-0 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="award" aria-hidden="true" class="lucide lucide-award w-4.5 h-4.5">
+                            <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+                            <circle cx="12" cy="8" r="6"></circle>
+                        </svg>
+                    </div>
+                    <span class="text-[11px] sm:text-xs font-black font-montserrat uppercase tracking-wider text-white">
+                ИНДИВИДУАЛЬНЫЙ ГРАФИК ЗАНЯТИЙ
+              </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 rounded-xl bg-[#f24d7c] flex items-center justify-center text-white shrink-0 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" aria-hidden="true"
+                             class="lucide lucide-shield-check w-4.5 h-4.5">
+                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <span class="text-[11px] sm:text-xs font-black font-montserrat uppercase tracking-wider text-white">
+                УДОБНАЯ И БЕЗОПАСНАЯ ОПЛАТА
+              </span>
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+
+                <div class="bg-white rounded-[28px] p-6 sm:p-8 text-slate-800 shadow-2xl relative flex flex-col justify-between border border-white">
+                    <div>
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="font-montserrat font-black text-xl sm:text-2xl text-[#004858] uppercase tracking-tight">
+                                ЛОГОПЕДЫ
+                            </h3>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="messages-square" aria-hidden="true"
+                                     class="lucide lucide-messages-square w-5 h-5">
+                                    <path d="M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                    <path d="M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="flex items-baseline gap-1.5 my-2">
+                            <span class="text-[#f24d7c] font-black font-montserrat text-lg sm:text-xl uppercase">от</span>
+                            <span class="font-montserrat font-black text-4xl sm:text-5xl text-[#f24d7c] tracking-tight">2600₽</span>
+                        </div>
+
+                        <p class="text-xs font-bold text-slate-400 leading-snug mt-3">
+                            стоимость одного очного занятия при покупке абонемента
+                        </p>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="#contact-form"
+                           class="inline-block text-center btn-pricing-book w-full bg-[#82c300] hover:bg-[#72ad00] text-white font-black font-montserrat uppercase text-xs sm:text-sm py-4 px-6 rounded-full shadow-lg shadow-lime-900/20 transition transform active:scale-95 cursor-pointer">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-[28px] p-6 sm:p-8 text-slate-800 shadow-2xl relative flex flex-col justify-between border border-white">
+                    <div>
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="font-montserrat font-black text-xl sm:text-2xl text-[#004858] uppercase tracking-tight">
+                                ПСИХОЛОГ
+                            </h3>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="brain" aria-hidden="true"
+                                     class="lucide lucide-brain w-5 h-5">
+                                    <path d="M12 18V5"></path>
+                                    <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"></path>
+                                    <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path>
+                                    <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path>
+                                    <path d="M18 18a4 4 0 0 0 2-7.464"></path>
+                                    <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path>
+                                    <path d="M6 18a4 4 0 0 1-2-7.464"></path>
+                                    <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="flex items-baseline gap-1.5 my-2">
+                            <span class="text-[#f24d7c] font-black font-montserrat text-lg sm:text-xl uppercase">от</span>
+                            <span class="font-montserrat font-black text-4xl sm:text-5xl text-[#f24d7c] tracking-tight">5600₽</span>
+                        </div>
+
+                        <p class="text-xs font-bold text-slate-400 leading-snug mt-3">
+                            стоимость одного занятия при покупке абонемента
+                        </p>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="#contact-form"
+                           class="inline-block text-center btn-pricing-book w-full bg-[#82c300] hover:bg-[#72ad00] text-white font-black font-montserrat uppercase text-xs sm:text-sm py-4 px-6 rounded-full shadow-lg shadow-lime-900/20 transition transform active:scale-95 cursor-pointer">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[28px] p-6 sm:p-8 text-slate-800 shadow-2xl relative flex flex-col justify-between border border-white">
+                    <div>
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="font-montserrat font-black text-xl sm:text-2xl text-[#004858] uppercase tracking-tight">
+                                ЗАНЯТИЯ ОНЛАЙН
+                            </h3>
+                            <div class="w-10 h-10 rounded-2xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#f24d7c] shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="laptop" aria-hidden="true"
+                                     class="lucide lucide-laptop w-5 h-5">
+                                    <path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z"></path>
+                                    <path d="M20.054 15.987H3.946"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="flex items-baseline gap-1.5 my-2">
+                            <span class="text-[#f24d7c] font-black font-montserrat text-lg sm:text-xl uppercase">от</span>
+                            <span class="font-montserrat font-black text-4xl sm:text-5xl text-[#f24d7c] tracking-tight">1700₽</span>
+                        </div>
+
+                        <p class="text-xs font-bold text-slate-400 leading-snug mt-3">
+                            стоимость одного занятия при покупке абонемента
+                        </p>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="#contact-form"
+                           class="inline-block text-center btn-pricing-book w-full bg-[#82c300] hover:bg-[#72ad00] text-white font-black font-montserrat uppercase text-xs sm:text-sm py-4 px-6 rounded-full shadow-lg shadow-lime-900/20 transition transform active:scale-95 cursor-pointer">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 7 КАК МЫ РАБОТАЕМ -->
+    <section id="how-we-work" class="py-16 sm:py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] tracking-tight leading-tight">
+                    КАК МЫ РАБОТАЕМ
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+
+                <div class="bg-white rounded-[24px] p-6 border border-slate-200/80 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-full bg-[#E31E24] text-white font-montserrat font-black text-base flex items-center justify-center mb-4 shadow-xs">
+                            1
+                        </div>
+                        <h3 class="font-montserrat font-black text-base text-[#004858] uppercase mb-2">
+                            Первичная консультация
+                        </h3>
+                        <p class="text-xs text-slate-600 font-medium leading-relaxed">
+                            Вы звоните или оставляете заявку. Администратор уточняет запрос, возраст ребёнка и при необходимости отправляет короткую
+                            онлайн-анкету, чтобы специалист мог подготовиться к встрече.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[24px] p-6 border border-slate-200/80 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-full bg-[#E31E24] text-white font-montserrat font-black text-base flex items-center justify-center mb-4 shadow-xs">
+                            2
+                        </div>
+                        <h3 class="font-montserrat font-black text-base text-[#004858] uppercase mb-2">
+                            Диагностика
+                        </h3>
+                        <p class="text-xs text-slate-600 font-medium leading-relaxed">
+                            Ведущий специалист проводит углублённую диагностику, выявляет корень проблемы и составляет индивидуальный коррекционный маршрут.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[24px] p-6 border border-slate-200/80 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-full bg-[#E31E24] text-white font-montserrat font-black text-base flex items-center justify-center mb-4 shadow-xs">
+                            3
+                        </div>
+                        <h3 class="font-montserrat font-black text-base text-[#004858] uppercase mb-2">
+                            Регулярные занятия
+                        </h3>
+                        <p class="text-xs text-slate-600 font-medium leading-relaxed">
+                            Ребёнок занимается по индивидуальному маршруту с постоянным специалистом.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-[24px] p-6 border border-slate-200/80 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="w-10 h-10 rounded-full bg-[#82c300] text-white font-montserrat font-black text-base flex items-center justify-center mb-4 shadow-xs">
+                            4
+                        </div>
+                        <h3 class="font-montserrat font-black text-base text-[#004858] uppercase mb-2">
+                            Корректировка маршрута
+                        </h3>
+                        <p class="text-xs text-slate-600 font-medium leading-relaxed">
+                            Каждые 3–4 месяца специалист проводит промежуточную диагностику в рамках занятий и корректирует программу. Вы получаете устную
+                            обратную связь: что появилось, над чем ещё работаем.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center text-xs font-montserrat font-bold text-slate-500 uppercase tracking-wider mb-10">
+                * Расписание занятий формируется индивидуально под ваш запрос
+            </div>
+
+            <div class="bg-gradient-to-br from-[#004858] to-[#00264a] text-white rounded-[32px] p-8 sm:p-12 border border-sky-900 shadow-xl">
+                <div class="max-w-3xl mb-8">
+              <span class="bg-amber-400 text-[#004858] text-xs font-montserrat font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full">
+                Честно о сроках
+              </span>
+                    <h3 class="text-2xl sm:text-3xl font-montserrat font-black uppercase text-amber-300 mt-4 mb-3">
+                        Мы не обещаем «чудо за 3 месяца» или «результат к третьему занятию»
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-200 leading-relaxed font-medium">
+                        Современная центральная нервная система детей требует времени и регулярности. Реальные ориентиры, которые приносит системная работа:
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/10">
+                        <div class="text-amber-300 font-montserrat font-black text-lg uppercase mb-2">За 3 месяца</div>
+                        <p class="text-xs text-slate-200 font-medium leading-relaxed">
+                            Переход от отдельных звуков к фразам, начало автоматизации правильной речи.
+                        </p>
+                    </div>
+
+                    <div class="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/10">
+                        <div class="text-amber-300 font-montserrat font-black text-lg uppercase mb-2">К 3-му занятию</div>
+                        <p class="text-xs text-slate-200 font-medium leading-relaxed">
+                            Успешная адаптация ребёнка в кабинете, установление тёплого контакта со специалистом.
+                        </p>
+                    </div>
+
+                    <div class="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/10">
+                        <div class="text-amber-300 font-montserrat font-black text-lg uppercase mb-2">За 6–7 месяцев</div>
+                        <p class="text-xs text-slate-200 font-medium leading-relaxed">
+                            Автоматизация трех звуков в спонтанной речи, переход от отдельных слов к развёрнутой фразе.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="p-4 rounded-xl bg-white/5 border border-white/10 text-center text-xs sm:text-sm text-slate-200 font-bold uppercase tracking-wider">
+                    Коррекция — это марафон, а не спринт. Но именно регулярная, системная работа даёт стабильный и долгосрочный результат.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 8 ОТЗЫВЫ -->
+    <section id="reviews" class="py-16 sm:py-24 bg-[#f8fafc] relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] tracking-tight leading-tight">
+                    ОТЗЫВЫ
+                </h2>
+            </div>
+
+            <div class="flex items-center justify-between gap-4 mb-6 bg-slate-50 p-4 sm:px-6 rounded-2xl border border-slate-200">
+                <div class="flex items-center gap-3">
+                    <span class="w-3 h-3 rounded-full bg-[#E31E24]"></span>
+                    <span class="text-xs sm:text-sm font-montserrat font-black uppercase text-[#004858] tracking-wider">
+                Отзывы родителей
+              </span>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <span id="review-counter" class="text-xs font-montserrat font-black text-[#004858] px-2">5 / 5</span>
+                    <div class="flex items-center gap-2">
+                        <button id="btn-review-prev"
+                                class="w-10 h-10 rounded-full bg-white border border-slate-200 hover:bg-[#004858] hover:text-white text-slate-800 transition flex items-center justify-center cursor-pointer shadow-xs active:scale-95"
+                                title="Предыдущий отзыв">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-left" aria-hidden="true"
+                                 class="lucide lucide-arrow-left w-4 h-4">
+                                <path d="m12 19-7-7 7-7"></path>
+                                <path d="M19 12H5"></path>
+                            </svg>
+                        </button>
+                        <button id="btn-review-next"
+                                class="w-10 h-10 rounded-full bg-white border border-slate-200 hover:bg-[#004858] hover:text-white text-slate-800 transition flex items-center justify-center cursor-pointer shadow-xs active:scale-95"
+                                title="Следующий отзыв">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" aria-hidden="true"
+                                 class="lucide lucide-arrow-right w-4 h-4">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reviews-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="review-card bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs flex flex-col justify-between hover:shadow-md transition"
+                     style="display: flex; order: 2;">
+                    <div>
+                        <div class="flex items-center justify-between mb-4 gap-2">
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div class="w-10 h-10 rounded-full bg-[#004858] text-white font-montserrat font-black flex items-center justify-center text-xs shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-check" aria-hidden="true"
+                                         class="lucide lucide-user-check w-5 h-5 text-amber-300">
+                                        <path d="m16 11 2 2 4-4"></path>
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="font-montserrat font-black text-xs sm:text-sm text-[#004858] uppercase truncate">Мама воспитанника</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-1.5 mb-3 bg-amber-50 border border-amber-100 px-3 py-1.5 rounded-xl w-fit">
+                            <div class="flex items-center text-amber-400 gap-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-xs font-montserrat font-black text-slate-800 ml-1">5.0 / 5</span>
+                        </div>
+
+                        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed italic font-medium bg-slate-50 p-4 rounded-xl border border-slate-200/70">
+                            «Ходим сюда уже 2 года.Посещаем занятия дефектолога и нейропсихолога. У ребёнка большой прогресс.
+                            Специалисты грамотные знают свое дело,после каждого занятия дают обратную связь.
+                            Администратор всегда старается помочь в том или ином вопросе обучения ребёнка.
+                            Так же проводится текущая диагностика,вносятся изменения в корекционный маршрут.
+                            Лучший центр в городе»</p>
+                    </div>
+
+                    <div class="text-[10px] text-slate-400 font-bold pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
+                <span class="flex items-center gap-1 text-emerald-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true"
+                       class="lucide lucide-check-circle-2 w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                  <span>Проверенный отзыв</span>
+                </span>
+                        <span>Ноябрь 2025</span>
+                    </div>
+                </div>
+
+                <div class="review-card bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs flex flex-col justify-between hover:shadow-md transition"
+                     style="display: flex; order: 3;">
+                    <div>
+                        <div class="flex items-center justify-between mb-4 gap-2">
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div class="w-10 h-10 rounded-full bg-[#004858] text-white font-montserrat font-black flex items-center justify-center text-xs shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-check" aria-hidden="true"
+                                         class="lucide lucide-user-check w-5 h-5 text-amber-300">
+                                        <path d="m16 11 2 2 4-4"></path>
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="font-montserrat font-black text-xs sm:text-sm text-[#004858] uppercase truncate">Папа воспитанника</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-1.5 mb-3 bg-amber-50 border border-amber-100 px-3 py-1.5 rounded-xl w-fit">
+                            <div class="flex items-center text-amber-400 gap-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-xs font-montserrat font-black text-slate-800 ml-1">5.0 / 5</span>
+                        </div>
+
+                        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed italic font-medium bg-slate-50 p-4 rounded-xl border border-slate-200/70">
+                            «За короткий срок специалисты Логостарта помогли нам решить проблему запуска речи у ребёнка.
+                            Занятия были интересными и увлекательными, благодаря чему сынок охотно шёл на каждое занятие.
+                            Специалисты проявили высокий профессионализм и индивидуальный подход к нашему ребёнку.
+                            За три месяца наш ребенок запустил речь»</p>
+                    </div>
+
+                    <div class="text-[10px] text-slate-400 font-bold pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
+                <span class="flex items-center gap-1 text-emerald-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true"
+                       class="lucide lucide-check-circle-2 w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                  <span>Проверенный отзыв</span>
+                </span>
+                        <span>Ноябрь 2025</span>
+                    </div>
+                </div>
+
+                <div class="review-card bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs flex flex-col justify-between hover:shadow-md transition"
+                     style="display: none; order: 1;">
+                    <div>
+                        <div class="flex items-center justify-between mb-4 gap-2">
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div class="w-10 h-10 rounded-full bg-[#004858] text-white font-montserrat font-black flex items-center justify-center text-xs shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-check" aria-hidden="true"
+                                         class="lucide lucide-user-check w-5 h-5 text-amber-300">
+                                        <path d="m16 11 2 2 4-4"></path>
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="font-montserrat font-black text-xs sm:text-sm text-[#004858] uppercase truncate">Родитель</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-1.5 mb-3 bg-amber-50 border border-amber-100 px-3 py-1.5 rounded-xl w-fit">
+                            <div class="flex items-center text-amber-400 gap-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-xs font-montserrat font-black text-slate-800 ml-1">5.0 / 5</span>
+                        </div>
+
+                        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed italic font-medium bg-slate-50 p-4 rounded-xl border border-slate-200/70">
+                            «Добрый день! Я водила сына в центр-Логос с июня по декабрь-2025 года, я очень рада что обратилась в данный центр,
+                            занимался ребенок с логопедом-дефектологом и с нейропсихологом,
+                            очень хороший результат для меня и моего ребёнка, поставили звук р и л ,огромное спасибо !!! Логос однозначно рекомендую !!!»</p>
+                    </div>
+
+                    <div class="text-[10px] text-slate-400 font-bold pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
+                <span class="flex items-center gap-1 text-emerald-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true"
+                       class="lucide lucide-check-circle-2 w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                  <span>Проверенный отзыв</span>
+                </span>
+                        <span>Апрель 2026</span>
+                    </div>
+                </div>
+
+                <div class="review-card bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs flex flex-col justify-between hover:shadow-md transition"
+                     style="display: none; order: 1;">
+                    <div>
+                        <div class="flex items-center justify-between mb-4 gap-2">
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div class="w-10 h-10 rounded-full bg-[#004858] text-white font-montserrat font-black flex items-center justify-center text-xs shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-check" aria-hidden="true"
+                                         class="lucide lucide-user-check w-5 h-5 text-amber-300">
+                                        <path d="m16 11 2 2 4-4"></path>
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="font-montserrat font-black text-xs sm:text-sm text-[#004858] uppercase truncate">Отец ребёнка</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-1.5 mb-3 bg-amber-50 border border-amber-100 px-3 py-1.5 rounded-xl w-fit">
+                            <div class="flex items-center text-amber-400 gap-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-xs font-montserrat font-black text-slate-800 ml-1">5.0 / 5</span>
+                        </div>
+
+                        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed italic font-medium bg-slate-50 p-4 rounded-xl border border-slate-200/70">
+                            «В центр начали ходить относительно недавно, работаем с проблемой заикания результаты уже есть.
+                            Спасибо специалистам Логостарт!»</p>
+                    </div>
+
+                    <div class="text-[10px] text-slate-400 font-bold pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
+                <span class="flex items-center gap-1 text-emerald-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true"
+                       class="lucide lucide-check-circle-2 w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                  <span>Проверенный отзыв</span>
+                </span>
+                        <span>Ноябрь 2026</span>
+                    </div>
+                </div>
+
+                <div class="review-card bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs flex flex-col justify-between hover:shadow-md transition"
+                     style="display: flex; order: 1;">
+                    <div>
+                        <div class="flex items-center justify-between mb-4 gap-2">
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div class="w-10 h-10 rounded-full bg-[#004858] text-white font-montserrat font-black flex items-center justify-center text-xs shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-check" aria-hidden="true"
+                                         class="lucide lucide-user-check w-5 h-5 text-amber-300">
+                                        <path d="m16 11 2 2 4-4"></path>
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="font-montserrat font-black text-xs sm:text-sm text-[#004858] uppercase truncate">Мама ребёнка</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-1.5 mb-3 bg-amber-50 border border-amber-100 px-3 py-1.5 rounded-xl w-fit">
+                            <div class="flex items-center text-amber-400 gap-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true"
+                                     class="lucide lucide-star w-4 h-4 fill-amber-400 text-amber-400">
+                                    <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-xs font-montserrat font-black text-slate-800 ml-1">5.0 / 5</span>
+                        </div>
+
+                        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed italic font-medium bg-slate-50 p-4 rounded-xl border border-slate-200/70">
+                            «Центр распологает приятными эмоциями уже с первых минут посещения.
+                            Очень уютная атмосфера и внимательное отношение персонала!
+                            Обращались с ребёнком к нейропсихологу.
+                            Диагностика прошла комфортно, удивительно быстро нашли правильный подход.
+                            Был подобран индивидуальный план реабилитации.
+                            И уже через неделю занятий наступили значительные улучшения!!!
+                            Спасибо профессионалам своего дела»</p>
+                    </div>
+
+                    <div class="text-[10px] text-slate-400 font-bold pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
+                <span class="flex items-center gap-1 text-emerald-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true"
+                       class="lucide lucide-check-circle-2 w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                  <span>Проверенный отзыв</span>
+                </span>
+                        <span>Июль 2026</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 9 FAQ  -->
+    <section id="faq" class="py-16 sm:py-24 bg-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl sm:text-4xl font-black text-[#004858] tracking-tight">
+                    ОТВЕТЫ НА ЧАСТЫЕ ВОПРОСЫ
+                </h2>
+            </div>
+
+            <div id="faq-accordion-container" class="space-y-4">
+                <div class="border border-slate-200/80 rounded-[22px] overflow-hidden bg-white shadow-2xs">
+                    <button
+                            class="w-full px-6 py-4 text-left font-montserrat font-black text-sm sm:text-base text-[#004858] flex items-center justify-between hover:bg-slate-50 transition cursor-pointer question">
+                        <span>В каком возрасте лучше начинать занятия с логопедом?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" id="faq-icon-f1"
+                             class="lucide lucide-chevron-down w-5 h-5 text-slate-400 transition-transform">
+                            <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-answer-f1"
+                         class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 font-medium leading-relaxed border-t border-slate-100 pt-3">
+                        Если к 2.5–3 годам у ребёнка отсутствует связная фразовая речь или менее 20 простых слов, рекомендуем пройти первичную диагностику. Чем
+                        раньше начата коррекция, тем быстрее и проще результат.
+                    </div>
+                </div>
+
+                <div class="border border-slate-200/80 rounded-[22px] overflow-hidden bg-white shadow-2xs">
+                    <button data-faq-toggle="f2"
+                            class="w-full px-6 py-4 text-left font-montserrat font-black text-sm sm:text-base text-[#004858] flex items-center justify-between hover:bg-slate-50 transition cursor-pointer question">
+                        <span>Сколько занятий требуется для постановки звука Р?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" id="faq-icon-f2"
+                             class="lucide lucide-chevron-down w-5 h-5 text-slate-400 transition-transform">
+                            <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-answer-f2"
+                         class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 font-medium leading-relaxed border-t border-slate-100 pt-3">
+                        В среднем постановка и автоматизация одного звука занимает от 4 до 10 занятий при соблюдении рекомендаций логопеда и выполнении
+                        артикуляционной гимнастики дома.
+                    </div>
+                </div>
+
+                <div class="border border-slate-200/80 rounded-[22px] overflow-hidden bg-white shadow-2xs">
+                    <button data-faq-toggle="f3"
+                            class="w-full px-6 py-4 text-left font-montserrat font-black text-sm sm:text-base text-[#004858] flex items-center justify-between hover:bg-slate-50 transition cursor-pointer question">
+                        <span>Безопасен ли метод Томатис для детей?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" id="faq-icon-f3"
+                             class="lucide lucide-chevron-down w-5 h-5 text-slate-400 transition-transform">
+                            <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-answer-f3"
+                         class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 font-medium leading-relaxed border-t border-slate-100 pt-3">
+                        Абсолютно безопасен. Аппарат Томатис сертифицирован и работает с физиологическими звуковыми частотами, не вызывающими дискомфорта.
+                        Проводится индивидуальный подбор программы.
+                    </div>
+                </div>
+
+                <div class="border border-slate-200/80 rounded-[22px] overflow-hidden bg-white shadow-2xs">
+                    <button data-faq-toggle="f4"
+                            class="w-full px-6 py-4 text-left font-montserrat font-black text-sm sm:text-base text-[#004858] flex items-center justify-between hover:bg-slate-50 transition cursor-pointer question">
+                        <span>Можно ли заниматься в филиалах Ставрополя и Михайловска по одному абонементу?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" id="faq-icon-f4"
+                             class="lucide lucide-chevron-down w-5 h-5 text-slate-400 transition-transform">
+                            <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-answer-f4"
+                         class="hidden px-6 pb-5 text-xs sm:text-sm text-slate-600 font-medium leading-relaxed border-t border-slate-100 pt-3">
+                        Да, наши абонементы едины для обоих филиалов «Логостарт». При необходимости вы можете посещать занятия в любом из двух филиалов.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 10 ЗАПИСЬ НА ДИАГНОСТИКУ  -->
+    <section id="contact-form" class="py-16 sm:py-24 bg-gradient-to-br from-[#003b71] via-[#002e5a] to-[#00203f] text-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+            <div class="bg-white rounded-[32px] p-8 sm:p-12 text-slate-800 shadow-2xl border border-white/20 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+
+                <div class="lg:col-span-6 space-y-6">
+                    <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] leading-tight">
+                        Запишитесь на диагностику
+                    </h2>
+
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                        Не откладывайте решение речевых сложностей «на потом». Чем раньше начата коррекция, тем эффективнее результат.
+                    </p>
+
+                    <div class="p-4 rounded-2xl bg-rose-50 border border-rose-100 flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-[#E31E24] text-white flex items-center justify-center shrink-0 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone-call" aria-hidden="true"
+                                 class="lucide lucide-phone-call w-6 h-6">
+                                <path d="M13 2a9 9 0 0 1 9 9"></path>
+                                <path d="M13 6a5 5 0 0 1 5 5"></path>
+                                <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-[11px] font-montserrat font-bold text-slate-500 uppercase block">Прямая связь с администратором:</span>
+                            <a href="tel:+79624599090" class="text-lg sm:text-xl font-montserrat font-black text-[#004858] hover:text-[#E31E24] transition">
+                                7‒962‒459‒90‒90
+                            </a>
+                        </div>
+                    </div>
+
+                    <p class="text-xs text-slate-500 font-medium leading-relaxed bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+                        💡 <strong>После записи:</strong> Мы отправим вам короткую анкету, чтобы наш специалист мог максимально качественно подготовиться к
+                        встрече с вашим ребёнком.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-6 bg-[#f8fafc] p-6 sm:p-8 rounded-[24px] border border-slate-200">
+                    <form id="inline-lead-form" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-montserrat font-black uppercase text-[#004858] mb-1.5">
+                                Ваше имя:
+                            </label>
+                            <input type="text" id="inline-name" required="" placeholder="Например: Ирина"
+                                   class="w-full px-4 py-3 rounded-xl border border-slate-200 text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500/30 bg-white">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-montserrat font-black uppercase text-[#004858] mb-1.5">
+                                Телефон для связи:
+                            </label>
+                            <input type="tel" id="inline-phone" required="" placeholder="+7 (999) 000-00-00"
+                                   class="w-full px-4 py-3 rounded-xl border border-slate-200 text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500/30 bg-white">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-montserrat font-black uppercase text-[#004858] mb-1.5">
+                                Выберите удобный филиал:
+                            </label>
+                            <select id="inline-branch"
+                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 text-xs sm:text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500/30 bg-white font-medium">
+                                <option value="Ставрополь (ул. Доваторцев, 32Б)">г. Ставрополь (ул. Доваторцев, 32Б)</option>
+                                <option value="Михайловск (ул. Ленина, 167/2к3)">г. Михайловск (ул. Ленина, 167/2к3)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit"
+                                class="w-full py-4 rounded-full font-montserrat font-black text-xs sm:text-sm uppercase tracking-wider text-white bg-[#82c300] hover:bg-[#72ad00] shadow-lg shadow-lime-900/20 transition transform active:scale-95 cursor-pointer flex items-center justify-center gap-2 mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="send" aria-hidden="true"
+                                 class="lucide lucide-send w-4 h-4">
+                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                <path d="m21.854 2.147-10.94 10.939"></path>
+                            </svg>
+                            <span>ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 11 КОНТАКТЫ -->
+    <section id="contacts" class="py-16 sm:py-24 bg-[#f8fafc] relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl sm:text-4xl font-black text-[#004858] tracking-tight">
+                    ЖДЁМ ВАС В ДЕТСКОМ ЦЕНТРЕ «ЛОГОСТАРТ» <br/>
+                    <span class="text-rose-600">В СТАВРОПОЛЕ И МИХАЙЛОВСКЕ</span>
+                </h2>
+            </div>
+
+
+            <div class="flex justify-center mb-10">
+                <div class="bg-slate-100 p-1.5 rounded-2xl flex gap-2">
+                    <button id="btn-contacts-stavropol" class="px-6 py-3 rounded-xl font-bold text-xs sm:text-sm hover:text-slate-800 active-btn">
+                        Филиал Ставрополь
+                    </button>
+                    <button id="btn-contacts-mikhailovsk" class="px-6 py-3 rounded-xl font-bold text-xs sm:text-sm hover:text-slate-800">
+                        Филиал Михайловск
+                    </button>
+                </div>
+            </div>
+
+
+            <div id="contacts-stavropol" class="contacts grid-cols-1 lg:grid-cols-12 gap-8 items-stretch active-contact">
+
+                <div class="lg:col-span-5 bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-100 flex flex-col justify-between shadow-xs">
+                    <div>
+                        <div id="contacts-city-tag" class="text-xs font-bold text-rose-600 uppercase tracking-wider mb-2">
+                            Детали филиала Ставрополь
+                        </div>
+                        <h3 id="contacts-branch-name" class="text-2xl font-black text-slate-900 mb-6">
+                            Центральный филиал Ставрополь
+                        </h3>
+
+                        <div class="space-y-4 text-xs sm:text-sm text-slate-700">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="map-pin" class="w-5 h-5 text-rose-500 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-slate-900 block">Адрес:</strong>
+                                    <span id="contacts-branch-address">г. Ставрополь, ул. Доваторцев, 32Б, 1 этаж</span>
+                                    <div id="contacts-branch-landmark" class="text-[11px] text-slate-400 mt-0.5">ТРЦ Премьер, рядом остановка МЖК</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="phone" class="w-5 h-5 text-emerald-500 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-slate-900 block">Телефон:</strong>
+                                    <a id="contacts-branch-phone" href="tel:+79624599090" class="font-extrabold text-slate-900 hover:text-rose-600 text-base">
+                                        +7 (962) 459-90-90
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="clock" class="w-5 h-5 text-blue-500 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-slate-900 block">График работы:</strong>
+                                    <span id="contacts-branch-hours">Пн-Сб: 08:00 – 20:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row gap-3">
+                        <a href="#contact-form" id="btn-contacts-book"
+                           class="text-center flex-1 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-rose-500 hover:bg-rose-600 transition shadow-md">
+                            Записаться
+                        </a>
+                        <a id="contacts-map-link" href="https://yandex.ru/maps" target="_blank"
+                           class="px-4 py-3.5 rounded-xl font-bold text-xs text-slate-700 bg-white border border-slate-200 hover:bg-slate-100 transition flex items-center justify-center gap-1.5">
+                            <span>Яндекс Карта</span>
+                            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-slate-100 rounded-3xl overflow-hidden shadow-lg border border-slate-200 relative min-h-[380px] flex flex-col justify-between">
+                    <div class="p-4 bg-white/90 backdrop-blur-md border-b border-slate-200 flex items-center justify-between z-10">
+                        <div class="flex items-center gap-2 text-xs font-bold text-slate-800">
+                            <span class="w-3 h-3 rounded-full bg-rose-500 animate-ping"></span>
+                            <span id="contacts-map-title">Яндекс Карты • Ставрополь</span>
+                        </div>
+                    </div>
+
+                    <div class="relative flex-1 bg-slate-200 flex items-center justify-center overflow-hidden min-h-[300px]">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A102609de0bf6ebaa0bc75d3311d37aa95776015569f1705d5569e1238397d2f6&amp;source=constructor"
+                                class="absolute inset-0 w-full h-full border-0"
+                                allowfullscreen="true">
+
+                        </iframe>
+                    </div>
+
+                    <div class="p-4 bg-white border-t border-slate-200 flex items-center justify-between text-xs text-slate-500">
+                        <span>© Яндекс Карты — «Логостарт»</span>
+                        <a id="contacts-map-link-bottom"
+                           href="https://yandex.ru/maps/?um=constructor%3A102609de0bf6ebaa0bc75d3311d37aa95776015569f1705d5569e1238397d2f6&source=constructorLink"
+                           target="_blank" class="text-rose-600 font-bold hover:underline">
+                            Открыть на большой карте
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="contacts-mikhailovsh" class="contacts grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+
+                <div class="lg:col-span-5 bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-100 flex flex-col justify-between shadow-xs">
+                    <div>
+                        <div class="text-xs font-bold text-rose-600 uppercase tracking-wider mb-2">
+                            Детали филиала Михайловск
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-900 mb-6">
+                            Центральный филиал Михайловск
+                        </h3>
+
+                        <div class="space-y-4 text-xs sm:text-sm text-slate-700">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="map-pin" class="w-5 h-5 text-rose-500 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-slate-900 block">Адрес:</strong>
+                                    <span>г. Михайловск, ул. Ленина, 167/2к3</span>
+                                    <div class="text-[11px] text-slate-400 mt-0.5">Ориентир: удобная транспортная доступность</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="phone" class="w-5 h-5 text-emerald-500 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-slate-900 block">Телефон:</strong>
+                                    <a href="tel:+79624599090" class="font-extrabold text-slate-900 hover:text-rose-600 text-base">
+                                        +7 (962) 459-90-90
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="clock" class="w-5 h-5 text-blue-500 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-slate-900 block">График работы:</strong>
+                                    <span>Пн-Сб: 08:00 – 19:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row gap-3">
+                        <a href="#contact-form"
+                           class="text-center flex-1 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-rose-500 hover:bg-rose-600 transition shadow-md">
+                            Записаться
+                        </a>
+                        <a href="https://yandex.ru/maps" target="_blank"
+                           class="px-4 py-3.5 rounded-xl font-bold text-xs text-slate-700 bg-white border border-slate-200 hover:bg-slate-100 transition flex items-center justify-center gap-1.5">
+                            <span>Яндекс Карта</span>
+                            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-slate-100 rounded-3xl overflow-hidden shadow-lg border border-slate-200 relative min-h-[380px] flex flex-col justify-between">
+                    <div class="p-4 bg-white/90 backdrop-blur-md border-b border-slate-200 flex items-center justify-between z-10">
+                        <div class="flex items-center gap-2 text-xs font-bold text-slate-800">
+                            <span class="w-3 h-3 rounded-full bg-rose-500 animate-ping"></span>
+                            <span>Яндекс Карты • Михайловск</span>
+                        </div>
+                    </div>
+
+                    <div class="relative flex-1 bg-slate-200 flex items-center justify-center overflow-hidden min-h-[300px]">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae841d9be477ad0e1c38f11a43911597788ddc66eee9f9e944fafbd8bde34e8dd&amp;source=constructor"
+                                class="absolute inset-0 w-full h-full border-0"
+                                allowfullscreen="true">
+                        </iframe>
+                    </div>
+
+                    <div class="p-4 bg-white border-t border-slate-200 flex items-center justify-between text-xs text-slate-500">
+                        <span>© Яндекс Карты — «Логостарт»</span>
+                        <a href="https://yandex.ru/maps/?um=constructor%3Ae841d9be477ad0e1c38f11a43911597788ddc66eee9f9e944fafbd8bde34e8dd&source=constructorLink"
+                           target="_blank" class="text-rose-600 font-bold hover:underline">
+                            Открыть на большой карте
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ФУТЕР -->
+<footer class="bg-slate-900 text-slate-300 pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+
+            <div class="lg:col-span-4 space-y-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl group-hover:scale-105 transition-transform duration-300">
+                        <img src="images/logostart3.png">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <div class="flex items-baseline font-montserrat font-black italic tracking-tighter text-xl sm:text-2xl leading-none">
+                            <span class="text-[#004858]">LOGO</span><span class="text-[#E31E24]">Start</span>
+                            <span class="text-[10px] sm:text-xs text-[#E31E24] not-italic font-bold ml-0.5">®</span>
+                        </div>
+                        <span class="font-montserrat font-black text-[8px] sm:text-[9px] tracking-wider text-[#E31E24] uppercase leading-tight mt-0.5">
+                детский коррекционный центр
+              </span>
+                    </div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+                    Профессиональная помощь в запуске и развитии речи у детей 3–7 лет в Ставрополе и Михайловске.
+                </p>
+                <div class="pt-2 space-y-2">
+                    <div class="text-[11px] font-montserrat font-black uppercase text-slate-400 tracking-wider">
+                        Мы в соцсетях:
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2">
+
+                        <a href="https://t.me/s/logostart_rus" target="_blank"
+                           class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-sky-500/20 hover:bg-sky-500 text-sky-300 hover:text-white border border-sky-500/40 text-xs font-montserrat font-bold transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="send" aria-hidden="true"
+                                 class="lucide lucide-send w-3.5 h-3.5">
+                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                <path d="m21.854 2.147-10.94 10.939"></path>
+                            </svg>
+                            <span>Telegram</span>
+                        </a>
+
+                        <a href="https://vk.ru/logostart26" target="_blank"
+                           class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-blue-600/20 hover:bg-blue-600 text-blue-300 hover:text-white border border-blue-500/40 text-xs font-montserrat font-bold transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="share-2" aria-hidden="true"
+                                 class="lucide lucide-share-2 w-3.5 h-3.5">
+                                <circle cx="18" cy="5" r="3"></circle>
+                                <circle cx="6" cy="12" r="3"></circle>
+                                <circle cx="18" cy="19" r="3"></circle>
+                                <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
+                                <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
+                            </svg>
+                            <span>ВКонтакте</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/logostart.rus?igsh=MWt5OHg5dGJ2Y3drMw==" target="_blank" title="Instagram (иконка замазана)"
+                           class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-purple-900/40 via-pink-900/40 to-amber-900/40 hover:from-purple-600 hover:to-pink-600 text-pink-200 hover:text-white border border-pink-500/30 text-xs font-montserrat font-bold transition group">
+                  <span class="w-3.5 h-3.5 inline-flex items-center justify-center filter blur-[2.5px] group-hover:blur-none transition">
+                    <i data-lucide="instagram" class="w-3.5 h-3.5"></i>
+                  </span>
+                            <span>Instagram</span>
+                        </a>
+
+                        <button id="btn-open-max-group"
+                                class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-sky-950 hover:bg-sky-900 text-slate-200 hover:text-white border border-sky-800 text-xs font-montserrat font-bold transition cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" aria-hidden="true"
+                                 class="lucide lucide-users w-3.5 h-3.5 text-sky-400">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                            </svg>
+                            <span>Макс</span>
+                        </button>
+                    </div>
+                </div>
+                <!--                <button id="btn-open-max-group"-->
+                <!--                        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 transition border border-slate-700">-->
+                <!--                    <i data-lucide="users" class="w-4 h-4 text-blue-400"></i>-->
+                <!--                    <span>Группа сотрудников MAX</span>-->
+                <!--                </button>-->
+            </div>
+
+            <div class="lg:col-span-3 space-y-3">
+                <h4 class="text-sm font-bold text-white uppercase tracking-wider">Разделы сайта</h4>
+                <ul class="space-y-2 text-xs text-slate-400">
+                    <li><a href="#about" class="hover:text-rose-400 transition">О компании</a></li>
+                    <li><a href="#services" class="hover:text-rose-400 transition">Услуги</a></li>
+                    <li><a href="#specialists" class="hover:text-rose-400 transition">Специалисты</a></li>
+                    <li><a href="#why-us" class="hover:text-rose-400 transition">Почему мы</a></li>
+                    <li><a href="#pricing" class="hover:text-rose-400 transition">Наши цены</a></li>
+                    <li><a href="#how-we-work" class="hover:text-rose-400 transition">Как мы работаем</a></li>
+                    <li><a href="#reviews" class="hover:text-rose-400 transition">Отзывы</a></li>
+                    <li><a href="#faq" class="hover:text-rose-400 transition">Ответы на вопросы</a></li>
+                    <li><a href="#contacts" class="hover:text-rose-400 transition">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="lg:col-span-2 space-y-3">
+                <h4 class="text-sm font-bold text-white uppercase tracking-wider">Филиалы</h4>
+                <div class="space-y-3 text-xs text-slate-400">
+                    <div>
+                        <strong class="text-slate-200 block">Ставрополь:</strong>
+                        <span>ул. Доваторцев, 32Б, 1 этаж</span>
+                    </div>
+                    <div>
+                        <strong class="text-slate-200 block">Михайловск:</strong>
+                        <span>ул. Ленина, д. 182</span>
+                    </div>
+                    <div class="pt-1">
+                        <a href="tel:+79624599090" class="text-rose-400 font-bold block hover:underline">+7 (962) 459-90-90</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3 bg-slate-800/60 p-5 rounded-2xl border border-slate-700/60 space-y-2.5 text-xs text-slate-300">
+                <h4 class="text-xs font-bold text-white uppercase tracking-wider flex items-center gap-1.5 mb-3">
+                    <i data-lucide="shield" class="w-4 h-4 text-emerald-400"></i>
+                    <span>Юридическая информация</span>
+                </h4>
+                <div>
+                    <span class="text-slate-400 block text-[11px]">Владелец сайта:</span>
+                    <strong class="text-slate-100">ИП Любченко Анна Георгиевна</strong>
+                </div>
+                <div class="grid grid-cols-2 gap-2 text-[11px]">
+                    <div>
+                        <span class="text-slate-400 block">ИНН:</span>
+                        <span class="font-mono text-slate-200">262310620474</span>
+                    </div>
+                    <div>
+                        <span class="text-slate-400 block">ОГРНИП:</span>
+                        <span class="font-mono text-slate-200">314265114800066</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/60">
+                    <span class="text-slate-400 block text-[11px]">E-mail для заявок:</span>
+                    <a href="mailto:logostart31@yandex.ru" class="text-rose-400 font-medium hover:underline">logostart31@yandex.ru</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+            <div>© 2026 Детский коррекционный центр «Логостарт». Все права защищены.</div>
+            <div class="flex items-center gap-6">
+                <button id="btn-open-privacy" class="hover:text-slate-300 transition">Политика конфиденциальности</button>
+                <button id="btn-open-offer" class="hover:text-slate-300 transition">Публичная оферта</button>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- МОДАЛКИ -->
+<div id="lead-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-100 relative max-h-[90vh] overflow-y-auto">
+        <button id="btn-close-lead-modal" class="absolute top-5 right-5 p-2 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition">
+            <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+
+        <div class="text-center mb-6">
+            <div class="w-12 h-12 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center mx-auto mb-3 font-bold text-xl">
+                <i data-lucide="phone" class="w-6 h-6"></i>
+            </div>
+            <h3 id="modal-lead-title" class="text-2xl font-black text-slate-900">Запись на консультацию</h3>
+            <p class="text-xs text-slate-500 mt-1">Заполните форму — администратор перезвонит в течение 15 минут</p>
+        </div>
+
+        <form id="lead-form" class="space-y-4 text-xs sm:text-sm">
+            <div>
+                <label class="block font-bold text-slate-700 mb-1">Филиал:</label>
+                <select id="lead-branch-select" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800 font-medium">
+                    <option value="stavropol">Ставрополь (ул. 50 лет ВЛКСМ, 52Б)</option>
+                    <option value="mikhailovsk">Михайловск (ул. Ленина, 182)</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block font-bold text-slate-700 mb-1">Ваше имя *:</label>
+                <input type="text" id="lead-name-input" required placeholder="Иван Иванович"
+                       class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800"/>
+            </div>
+
+            <div>
+                <label class="block font-bold text-slate-700 mb-1">Телефон для связи *:</label>
+                <input type="tel" id="lead-phone-input" required placeholder="+7 (962) 459-90-90" value="+7 "
+                       class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800 font-semibold"/>
+            </div>
+
+            <div>
+                <label class="block font-bold text-slate-700 mb-1">Возраст ребёнка:</label>
+                <select id="lead-age-select" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800">
+                    <option value="3 года">3 года</option>
+                    <option value="4 года">4 года</option>
+                    <option value="5 лет">5 лет</option>
+                    <option value="6 лет">6 лет</option>
+                    <option value="7 лет">7 лет</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block font-bold text-slate-700 mb-1">Интересующая услуга:</label>
+                <select id="lead-service-select" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800">
+                </select>
+            </div>
+
+            <div>
+                <label class="block font-bold text-slate-700 mb-1">Комментарии:</label>
+                <textarea id="lead-comment-input" rows="2" placeholder="Особенности произношения или удобное время..."
+                          class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800"></textarea>
+            </div>
+
+            <div class="flex items-center gap-2 pt-1">
+                <input type="checkbox" id="lead-consent" checked class="w-4 h-4 text-rose-500 rounded border-slate-300"/>
+                <label for="lead-consent" class="text-[11px] text-slate-500">Согласен на обработку персональных данных</label>
+            </div>
+
+            <button type="submit" id="btn-submit-lead"
+                    class="w-full py-4 rounded-xl font-bold text-sm text-white bg-rose-500 hover:bg-rose-600 transition shadow-md flex items-center justify-center gap-2">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Отправить заявку</span>
+            </button>
+            <p class="text-[10px] text-slate-400 text-center">Направляется на E-mail: logostart31@yandex.ru</p>
+        </form>
+    </div>
+</div>
+
+<div id="max-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl relative text-center">
+        <button id="btn-close-max-modal" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">
+            <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+        <div class="w-16 h-16 rounded-3xl bg-blue-100 text-blue-600 flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="users" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-2xl font-black text-slate-900 mb-2">Группа сотрудников MAX</h3>
+        <p class="text-xs text-slate-600 mb-6">
+            Рабочее пространство команды детского центра «Логостарт» (Ставрополь / Михайловск).
+        </p>
+        <a href="https://t.me" target="_blank"
+           class="w-full py-3.5 rounded-xl font-bold text-sm text-white bg-blue-600 hover:bg-blue-700 transition flex items-center justify-center gap-2">
+            <span>Перейти в группу MAX</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+        </a>
+    </div>
+</div>
+
+<div id="toast-banner"
+     class="hidden fixed bottom-6 right-6 z-50 bg-slate-900 text-white px-5 py-4 rounded-2xl shadow-2xl border border-slate-700 max-w-sm animate-fade-in flex items-start gap-3">
+    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
+    <div class="text-xs">
+        <div class="font-bold text-slate-100" id="toast-title">Уведомление</div>
+        <div class="text-slate-300 mt-0.5" id="toast-body">Заявка принята</div>
+    </div>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

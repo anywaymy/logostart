@@ -1,0 +1,35 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contacts {
+    display: none;
+}
+
+.active-contact {
+    display: grid;
+}
+
+.active-btn {
+    background-color: #f43f5e;
+    color: #fff;
+}
+
+.disabled-btn {
+    background-color: #334155;
+}
