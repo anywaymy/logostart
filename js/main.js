@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (heroCityName) heroCityName.textContent = 'В СТАВРОПОЛЕ';
             if (heroSubtitle) {
-                heroSubtitle.textContent = 'ЗАНЯТИЯ С ЛОГОПЕДОМ В СТАВРОПОЛЕ, ОНЛАЙН ЗАНЯТИЯ ИЗ ЛЮБОЙ ТОЧКИ МИРА';
+                heroSubtitle.textContent = 'ЗАНЯТИЯ С ЛОГОПЕДОМ В СТАВРОПОЛЕ';
             }
 
         } else if (city === 'mikhailovsk') {
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
               if (heroCityName) heroCityName.textContent = 'В МИХАЙЛОВСКЕ';
               if (heroSubtitle) {
-                    heroSubtitle.textContent = 'ЗАНЯТИЯ С ЛОГОПЕДОМ В МИХАЙЛОВСКЕ, ОНЛАЙН ЗАНЯТИЯ ИЗ ЛЮБОЙ ТОЧКИ МИРА';
+                    heroSubtitle.textContent = 'ЗАНЯТИЯ С ЛОГОПЕДОМ В МИХАЙЛОВСКЕ';
               }
         }
     }
