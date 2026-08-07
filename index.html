@@ -213,7 +213,10 @@
                     </div>
 
                     <div class="lg:col-span-5">
-                        <video class="rounded-[32px]" controls width="450" height="250">
+                        <video class="w-full h-auto object-cover rounded-[32px]"
+                               poster="images/gallery/poster.jpg"
+                               controls
+                               width="450" height="250">
                             <source src="video/video_mp4.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -1584,8 +1587,124 @@
         </div>
     </section>
 
+    <!-- 7 ГАЛЕРЕЯ -->
+    <section id="gallery" class="py-16 sm:py-24 bg-white relative border-y border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl sm:text-4xl font-black font-montserrat uppercase text-[#004858] tracking-tight leading-tight">
+                    ГАЛЕРЕЯ
+                </h2>
+            </div>
+
+
+            <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <div data-gallery-index="0"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image1.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="1"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image2.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-3">
+                        </div>
+                    </div>
+                </div>
+
+                <div data-gallery-index="2"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image3.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="3"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image4.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="4"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image5.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="5"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image6.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="6"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image7.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="7"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image8.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="8"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image9.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="9"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image10.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+
+                <div data-gallery-index="10"
+                     class="gallery-item-card group relative bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-xs hover:shadow-xl transition duration-300 cursor-pointer flex flex-col justify-between">
+                    <div class="relative aspect-4/3 overflow-hidden bg-slate-100">
+                        <img src="images/gallery/image11.jpg"
+                             alt="Индивидуальное логопедическое занятие" class="w-full h-full object-cover group-hover:scale-108 transition duration-500"
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- 9 FAQ  -->
-    <section id="faq" class="hidden md:block py-16 sm:py-24 bg-white relative">
+    <section id="faq" class="hidden md:block py-16 sm:py-24 bg-[#f8fafc] relative">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="text-center max-w-2xl mx-auto mb-12">
