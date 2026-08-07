@@ -7,21 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnNext = document.getElementById('btn-review-next');
 
     // ДЛЯ ПЕРЕКЛЮЧЕНИЯ МЕЖДУ ГОРОДАМИ
-    const btnHeaderStavropol = document.getElementById('btn-branch-stavropol');
-    const btnHeaderMikhailovsk = document.getElementById('btn-branch-mikhailovsk');
-
     const btnContactsStavropol = document.getElementById('btn-contacts-stavropol');
     const btnContactsMikhailovsk = document.getElementById('btn-contacts-mikhailovsk');
 
     const blockStavropol = document.getElementById('contacts-stavropol');
     const blockMikhailovsk = document.getElementById('contacts-mikhailovsh');
-
-    const heroCityName = document.getElementById('hero-city-name');
-    const heroSubtitle = document.querySelector('h1 + p');
-
-    const headerActiveClasses = ['bg-white', 'text-rose-600', 'shadow-2xs'];
-    const headerInactiveClasses = ['text-slate-600', 'hover:text-slate-900'];
-
     const contactsActiveClasses = ['active-btn', 'bg-white', 'text-rose-600', 'shadow-sm'];
 
     // ДЛЯ МОБИЛЬНОГО МЕНЮ
@@ -114,46 +104,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // ПЕРЕКЛЮЧЕНИЕ ГОРОДОВ
     function switchBranch(city) {
         if (city === 'stavropol') {
-            btnHeaderStavropol.classList.add(...headerActiveClasses);
-            btnHeaderStavropol.classList.remove(...headerInactiveClasses);
-            btnHeaderMikhailovsk.classList.remove(...headerActiveClasses);
-            btnHeaderMikhailovsk.classList.add(...headerInactiveClasses);
-
             btnContactsStavropol.classList.add(...contactsActiveClasses);
             btnContactsMikhailovsk.classList.remove(...contactsActiveClasses);
 
             blockStavropol.classList.add('active-contact');
             blockMikhailovsk.classList.remove('active-contact');
 
-            if (heroCityName) heroCityName.textContent = 'В СТАВРОПОЛЕ';
-            if (heroSubtitle) {
-                heroSubtitle.textContent = 'ЗАНЯТИЯ С ЛОГОПЕДОМ В СТАВРОПОЛЕ';
-            }
-
         } else if (city === 'mikhailovsk') {
-              btnHeaderMikhailovsk.classList.add(...headerActiveClasses);
-              btnHeaderMikhailovsk.classList.remove(...headerInactiveClasses);
-              btnHeaderStavropol.classList.remove(...headerActiveClasses);
-              btnHeaderStavropol.classList.add(...headerInactiveClasses);
-
               btnContactsMikhailovsk.classList.add(...contactsActiveClasses);
               btnContactsStavropol.classList.remove(...contactsActiveClasses);
 
               blockMikhailovsk.classList.add('active-contact');
               blockStavropol.classList.remove('active-contact');
-
-              if (heroCityName) heroCityName.textContent = 'В МИХАЙЛОВСКЕ';
-              if (heroSubtitle) {
-                    heroSubtitle.textContent = 'ЗАНЯТИЯ С ЛОГОПЕДОМ В МИХАЙЛОВСКЕ';
-              }
         }
     }
 
 
-    btnHeaderStavropol?.addEventListener('click', () => switchBranch('stavropol'));
     btnContactsStavropol?.addEventListener('click', () => switchBranch('stavropol'));
-
-    btnHeaderMikhailovsk?.addEventListener('click', () => switchBranch('mikhailovsk'));
     btnContactsMikhailovsk?.addEventListener('click', () => switchBranch('mikhailovsk'));
 
 });
