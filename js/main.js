@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const burger = document.getElementById('btn-toggle-mobile-menu');
     const mobileMenu = document.getElementById('mobile-menu');
 
+    // ДЛЯ ЯНДЕКС КАРТ
+    const contactsSection = document.getElementById('contacts');
+
 
     // МОБИЛЬНОЕ МЕНЮ
     if  (burger) {
@@ -122,5 +125,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnContactsStavropol?.addEventListener('click', () => switchBranch('stavropol'));
     btnContactsMikhailovsk?.addEventListener('click', () => switchBranch('mikhailovsk'));
+
+
+    // ДЛЯ ЯНДЕКС КАРТ
+    if (contactsSection) {
+        const loadMapIframes = () => {
+            const iframes = contactsSection.querySelectorAll('iframe.lazy-iframe');
+            iframes.forEach(iframe => {
+                if (iframe.dataset.src) {
+                iframe.src = iframe.dataset.src;
+                iframe.removeAttribute('data-src');
+            }
+        });
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+            loadMapIframes();
+            observer.disconnect();
+        }
+    });
+    }, { rootMargin: '300px' });
+
+        observer.observe(contactsSection);
+}
 
 });
