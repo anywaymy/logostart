@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
     padding-top: 100px;
 }
@@ -59,6 +59,7 @@ h1 {
 
 .requisites {
     background: #f8fafc;
+    max-width: 500px;
     border: 1px solid #e2e8f0;
     border-radius: 16px;
     padding: 20px;
@@ -66,7 +67,7 @@ h1 {
     margin-bottom: 24px;
 }
 
-.requisites h3 {
+.content-section h3 {
     font-size: 14px;
     font-weight: 700;
     color: #0f172a;
@@ -82,7 +83,7 @@ h1 {
 .req-item span {
     display: block;
     color: #94a3b8;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .req-item strong {
@@ -90,7 +91,7 @@ h1 {
 }
 
 .content-section {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .content-section h2 {
@@ -158,6 +159,60 @@ h1 {
 }
 
 
+.table-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.table-section h2 {
+    color: #1e3a8a;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 16px;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    vertical-align: top;
+}
+
+.data-table th {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.data-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.data-table td.highlight {
+    background-color: #fef9c3;
+}
+
+
 .animate-fade-in {
     animation: fadeIn 0.3s ease-out forwards;
 }
@@ -170,5 +225,54 @@ h1 {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .data-table,
+    .data-table thead,
+    .data-table tbody,
+    .data-table th,
+    .data-table td,
+    .data-table tr {
+        display: block;
+    }
+
+    .data-table thead {
+        display: none;
+    }
+
+    .data-table tr {
+        margin-bottom: 16px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+    }
+
+    .data-table td {
+        border: none;
+        border-bottom: 1px solid #f1f5f9;
+        position: relative;
+        padding-left: 45%;
+        min-height: 54px;
+    }
+
+    .data-table td:last-child {
+        border-bottom: none;
+    }
+
+    .data-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        width: 38%;
+        font-weight: 700;
+        color: #1e3a8a;
+        font-size: 0.85rem;
+        text-transform: uppercase;
     }
 }
