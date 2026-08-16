@@ -212,7 +212,6 @@ h1 {
     background-color: #fef9c3;
 }
 
-
 .animate-fade-in {
     animation: fadeIn 0.3s ease-out forwards;
 }
@@ -227,7 +226,6 @@ h1 {
         transform: translateY(0);
     }
 }
-
 
 @media (max-width: 768px) {
     .data-table,

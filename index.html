@@ -6,11 +6,25 @@
     <title>Детский коррекционный центр «Логостарт» | Ставрополь и Михайловск</title>
     <meta name="description"
           content="Запуск и развитие речи у детей 3–7 лет в Ставрополе и Михайловске. Логопедия, дефектология, Томатис, БОС, логопедический массаж."/>
+    <meta name="robots" content="index, follow, max-image-preview:large"/>
+    <meta name="theme-color" content="#ffffff"/>
+
+    <link rel="canonical" href="https://anywaymy.github.io/logostart/"/>
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="ru_RU"/>
+    <meta property="og:title" content="Детский коррекционный центр «Логостарт»"/>
+    <meta property="og:description" content="Запуск и развитие речи у детей 3–7 лет в Ставрополе и Михайловске."/>
+    <meta property="og:image" content="https://anywaymy.github.io/logostart/images/gallery/original_images/og_image.jpeg"/>
+    <meta property="og:url" content="https://anywaymy.github.io/logostart/"/>
 
     <link rel="shortcut icon" href="images/logostart3.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/logostart3.png"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/style.min.css">
 
@@ -328,7 +342,7 @@ m380 195 c29 -29 27 -90 -4 -119 -21 -20 -35 -22 -132 -24 l-109 -2 -3 83 -3
                     </div>
 
                 </div>
-                <div class="lg:col-span-4 flex flex-col gap-5">
+                <div class="lg:col-span-4 flex flex-col justify-between gap-5">
 
                     <div class="bg-gradient-to-r from-[#5066d6] to-[#6376e5] rounded-[28px] text-white overflow-hidden shadow-lg flex-1 flex flex-row items-stretch min-h-[200px] max-h-[210px] border border-indigo-400/30 group hover:shadow-xl transition">
                         <div class="w-3/5 sm:w-6/12 relative shrink-0 overflow-hidden">
@@ -2646,99 +2660,6 @@ m380 195 c29 -29 27 -90 -4 -119 -21 -20 -35 -22 -132 -24 l-109 -2 -3 83 -3
 </footer>
 
 <!-- МОДАЛКИ -->
-<div id="lead-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
-    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-100 relative max-h-[90vh] overflow-y-auto">
-        <button id="btn-close-lead-modal" class="absolute top-5 right-5 p-2 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition">
-            <i data-lucide="x" class="w-5 h-5"></i>
-        </button>
-
-        <div class="text-center mb-6">
-            <div class="w-12 h-12 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center mx-auto mb-3 font-bold text-xl">
-                <i data-lucide="phone" class="w-6 h-6"></i>
-            </div>
-            <h3 id="modal-lead-title" class="text-2xl font-black text-slate-900">Запись на консультацию</h3>
-            <p class="text-xs text-slate-500 mt-1">Заполните форму — администратор перезвонит в течение 15 минут</p>
-        </div>
-
-        <form id="lead-form" class="space-y-4 text-xs sm:text-sm">
-            <div>
-                <label class="block font-bold text-slate-700 mb-1">Филиал:</label>
-                <select id="lead-branch-select" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800 font-medium">
-                    <option value="stavropol">Ставрополь (ул. 50 лет ВЛКСМ, 52Б)</option>
-                    <option value="mikhailovsk">Михайловск (ул. Ленина, 182)</option>
-                </select>
-            </div>
-
-            <div>
-                <label class="block font-bold text-slate-700 mb-1">Ваше имя *:</label>
-                <input type="text" id="lead-name-input" required placeholder="Иван Иванович"
-                       class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800"/>
-            </div>
-
-            <div>
-                <label class="block font-bold text-slate-700 mb-1">Телефон для связи *:</label>
-                <input type="tel" id="lead-phone-input" required placeholder="+7 (962) 459-90-90" value="+7 "
-                       class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800 font-semibold"/>
-            </div>
-
-            <div>
-                <label class="block font-bold text-slate-700 mb-1">Возраст ребёнка:</label>
-                <select id="lead-age-select" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800">
-                    <option value="3 года">3 года</option>
-                    <option value="4 года">4 года</option>
-                    <option value="5 лет">5 лет</option>
-                    <option value="6 лет">6 лет</option>
-                    <option value="7 лет">7 лет</option>
-                </select>
-            </div>
-
-            <div>
-                <label class="block font-bold text-slate-700 mb-1">Интересующая услуга:</label>
-                <select id="lead-service-select" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800">
-                </select>
-            </div>
-
-            <div>
-                <label class="block font-bold text-slate-700 mb-1">Комментарии:</label>
-                <textarea id="lead-comment-input" rows="2" placeholder="Особенности произношения или удобное время..."
-                          class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-800"></textarea>
-            </div>
-
-            <div class="flex items-center gap-2 pt-1">
-                <input type="checkbox" id="lead-consent" checked class="w-4 h-4 text-rose-500 rounded border-slate-300"/>
-                <label for="lead-consent" class="text-[11px] text-slate-500">Согласен на обработку персональных данных</label>
-            </div>
-
-            <button type="submit" id="btn-submit-lead"
-                    class="w-full py-4 rounded-xl font-bold text-sm text-white bg-rose-500 hover:bg-rose-600 transition shadow-md flex items-center justify-center gap-2">
-                <i data-lucide="send" class="w-4 h-4"></i>
-                <span>Отправить заявку</span>
-            </button>
-            <p class="text-[10px] text-slate-400 text-center">Направляется на E-mail: logostart31@yandex.ru</p>
-        </form>
-    </div>
-</div>
-
-<div id="max-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
-    <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl relative text-center">
-        <button id="btn-close-max-modal" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">
-            <i data-lucide="x" class="w-5 h-5"></i>
-        </button>
-        <div class="w-16 h-16 rounded-3xl bg-blue-100 text-blue-600 flex items-center justify-center mx-auto mb-4">
-            <i data-lucide="users" class="w-8 h-8"></i>
-        </div>
-        <h3 class="text-2xl font-black text-slate-900 mb-2">Группа сотрудников MAX</h3>
-        <p class="text-xs text-slate-600 mb-6">
-            Рабочее пространство команды детского центра «Логостарт» (Ставрополь / Михайловск).
-        </p>
-        <a href="https://t.me" target="_blank"
-           class="w-full py-3.5 rounded-xl font-bold text-sm text-white bg-blue-600 hover:bg-blue-700 transition flex items-center justify-center gap-2">
-            <span>Перейти в группу MAX</span>
-            <i data-lucide="external-link" class="w-4 h-4"></i>
-        </a>
-    </div>
-</div>
-
 <div id="toast-banner"
      class="hidden fixed bottom-6 right-6 z-50 bg-slate-900 text-white px-5 py-4 rounded-2xl shadow-2xl border border-slate-700 max-w-sm animate-fade-in flex items-start gap-3">
     <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
