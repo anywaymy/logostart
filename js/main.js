@@ -149,6 +149,39 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { rootMargin: '300px' });
 
         observer.observe(contactsSection);
-}
+    }
+
+    // ОТПРАВКА ФОРМЫ
+    document.getElementById('inline-lead-form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const form = this;
+        const submitBtn = form.querySelector('button[type="submit"]');
+
+        submitBtn.disabled = true;
+
+        try {
+            const formData = new FormData(form);
+
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                alert('Спасибо! Заявка успешно отправлена.');
+                form.reset();
+            } else {
+                alert(result.message || 'Ошибка при отправке. Попробуйте позже.');
+            }
+        } catch (error) {
+            console.error('Ошибка:', error);
+            alert('Произошла ошибка сети. Проверьте подключение.');
+        } finally {
+            submitBtn.disabled = false;
+        }
+    });
 
 });

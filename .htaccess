@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?логостарт26\.рф$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^(www\.)?xn--80adbk8abge0a\.xn--p1ai$ [NC]
+RewriteRule ^(.*)$ https://www.logostart26.ru/$1 [R=301,L]
