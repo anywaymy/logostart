@@ -26,7 +26,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/tailwind.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
 </head>
 <body class="min-h-screen bg-white text-slate-900 font-sans antialiased selection:bg-rose-100 selection:text-rose-900">
@@ -1105,44 +1106,89 @@ m380 195 c29 -29 27 -90 -4 -119 -21 -20 -35 -22 -132 -24 l-109 -2 -3 83 -3
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="cert-items-grid">
-
-                        <div class="bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
-                            <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
-                                <img src="images/certificates/image-1.webp"
-                                     width="412"
-                                     height="600"
-                                     alt="Сертификат Tomatis® Level 1 Practitioner"
-                                     loading="lazy"
-                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <div class="swiper grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="cert-items-grid">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-1.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                                <!--                            <div>-->
+                                <!--                                <span class="text-[10px] font-montserrat font-black text-[#E31E24] uppercase tracking-wider block mb-1">undefined (undefined)</span>-->
+                                <!--                                <h4 class="text-xs sm:text-sm font-montserrat font-black text-[#004858] uppercase leading-snug mb-1">Сертификат Tomatis® Level 1-->
+                                <!--                                    Practitioner</h4>-->
+                                <!--                                <p class="text-[11px] text-slate-500 font-medium">undefined</p>-->
+                                <!--                            </div>-->
                             </div>
-<!--                            <div>-->
-<!--                                <span class="text-[10px] font-montserrat font-black text-[#E31E24] uppercase tracking-wider block mb-1">undefined (undefined)</span>-->
-<!--                                <h4 class="text-xs sm:text-sm font-montserrat font-black text-[#004858] uppercase leading-snug mb-1">Сертификат Tomatis® Level 1-->
-<!--                                    Practitioner</h4>-->
-<!--                                <p class="text-[11px] text-slate-500 font-medium">undefined</p>-->
-<!--                            </div>-->
-                        </div>
 
-                        <div class="bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
-                            <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
-                                <img src="images/certificates/image-2.webp"
-                                     width="412"
-                                     height="600"
-                                     alt="Диплом с отличием по специальной педагогике и логопедии"
-                                     loading="lazy"
-                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-2.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
-                            <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
-                                <img src="images/certificates/image-3.webp"
-                                     width="412"
-                                     height="600"
-                                     alt="Сертификат специалиста по зондовому логомассажу"
-                                     loading="lazy"
-                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-3.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-4.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-5.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-6.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bg-[#f8fafc] rounded-2xl p-4 border border-slate-200/80 shadow-xs hover:shadow-md transition group flex flex-col justify-between">
+                                <div class="overflow-hidden rounded-xl bg-white border border-slate-200 flex items-center justify-center">
+                                    <img src="images/certificates/image-7.webp"
+                                         width="412"
+                                         height="600"
+                                         alt="Сертификат"
+                                         loading="lazy"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2730,5 +2776,23 @@ m380 195 c29 -29 27 -90 -4 -119 -21 -20 -35 -22 -132 -24 l-109 -2 -3 83 -3
 
 <script src="https://unpkg.com/lucide@latest"></script>
 <script src="js/main.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        breakpoints: {
+            320: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        spaceBetween: 20,
+    });
+</script>
 </body>
 </html>
