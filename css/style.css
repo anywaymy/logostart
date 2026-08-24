@@ -218,6 +218,7 @@ h1 {
 
 .certificate-editable {
     max-height: 450px;
+    min-height: 450px;
 }
 
 @keyframes fadeIn {
