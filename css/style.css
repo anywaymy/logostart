@@ -216,6 +216,10 @@ h1 {
     animation: fadeIn 0.3s ease-out forwards;
 }
 
+.certificate-editable {
+    max-height: 450px;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -236,6 +240,7 @@ h1 {
     .data-table tr {
         display: block;
     }
+
 
     .data-table thead {
         display: none;
@@ -272,5 +277,8 @@ h1 {
         color: #1e3a8a;
         font-size: 0.85rem;
         text-transform: uppercase;
+    }
+    .certificate-editable {
+        max-height: 750px;
     }
 }
