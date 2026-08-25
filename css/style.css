@@ -1,7 +1,21 @@
+@font-face {
+    font-family: "CosmicSansMC";
+    src: url("../fonts/comic-sans-mc/comic-sans-ms-italique.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.logo-text {
+    font-family: "CosmicSansMC" !important;
+    color: #00828C;
 }
 
 body {
