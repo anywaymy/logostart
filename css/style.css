@@ -13,9 +13,17 @@
     padding: 0;
 }
 
-.logo-text {
+.logo-title {
     font-family: "CosmicSansMC" !important;
     color: #00828C;
+}
+
+footer .logo-title {
+    color: #ffffff;
+}
+
+.logo-text {
+    font-size: 0.47em;
 }
 
 body {

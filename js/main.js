@@ -22,6 +22,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactsSection = document.getElementById('contacts');
 
 
+    // ИНИЦИАЛИЗАЦИЯ SWIPER
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        breakpoints: {
+            320: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        spaceBetween: 20,
+
+        speed: 4000,
+
+        autoplay: {
+          delay: 0,
+          disableOnInteraction: false,
+        },
+    });
+
+    // ИНИЦИАЛИЗАЦИЯ LUCIDE
+    if (window.lucide) {
+        window.lucide.createIcons();
+    }
+
     // МОБИЛЬНОЕ МЕНЮ
     if  (burger) {
         burger.addEventListener('click', function() {
@@ -42,12 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         icon.classList.toggle('rotate-180');
     });
-
-
-    if (window.lucide) {
-        window.lucide.createIcons();
-    }
-
 
     // Carousel
     if (cards.length > 0) {
