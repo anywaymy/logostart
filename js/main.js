@@ -23,17 +23,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // ИНИЦИАЛИЗАЦИЯ SWIPER
-    const swiper = new Swiper('.swiper', {
+    const swiperReviews = new Swiper('.swiper-reviews', {
+        loop: false, // Включаем бесконечный режим
+        spaceBetween: 24, // Расстояние между карточками отзыва
+        speed: 400, // Скорость перелистывания по клику в мс
+
+        // Подключаем ваши стрелочки из HTML по ID
+        navigation: {
+            nextEl: '#btn-review-next',
+            prevEl: '#btn-review-prev',
+        },
+
+        // Подключаем кастомный счетчик цифр
+        pagination: {
+            el: '.swiper-pagination-custom',
+            type: 'fraction', // Режим fraction автоматически генерирует строку вида "1 / 5"
+        },
+
+        // Настройка сетки для разных мониторов
+        breakpoints: {
+            320: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }
+        }
+    });
+
+    const swiperGallery = new Swiper('.swiper-gallery', {
         loop: true,
         breakpoints: {
             320: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 }
-        },
-
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
         },
 
         spaceBetween: 20,
@@ -46,10 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     });
 
+
     // ИНИЦИАЛИЗАЦИЯ LUCIDE
     if (window.lucide) {
         window.lucide.createIcons();
     }
+
 
     // МОБИЛЬНОЕ МЕНЮ
     if  (burger) {
@@ -71,61 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         icon.classList.toggle('rotate-180');
     });
-
-    // Carousel
-    if (cards.length > 0) {
-
-        let currentIndex = 0;
-        const total = cards.length;
-
-        function updateCarousel() {
-            if (counter) {
-                counter.textContent = `${currentIndex + 1} / ${total}`;
-            }
-
-        const visibleIndices = [
-            currentIndex,
-            (currentIndex + 1) % total,
-            (currentIndex + 2) % total,
-        ];
-
-        cards.forEach((card, idx) => {
-            const pos = visibleIndices.indexOf(idx);
-            if (pos !== -1) {
-            card.style.display = 'flex';
-            card.style.order = String(pos + 1);
-
-            if (pos === 0) {
-
-              card.classList.add('border-[#E31E24]', 'shadow-md', 'ring-2', 'ring-[#E31E24]/20', 'scale-[1.01]');
-              card.classList.remove('border-slate-200/90', 'shadow-xs');
-            } else {
-
-              card.classList.remove('border-[#E31E24]', 'shadow-md', 'ring-2', 'ring-[#E31E24]/20', 'scale-[1.01]');
-              card.classList.add('border-slate-200/90', 'shadow-xs');
-            }
-          } else {
-                card.style.display = 'none';
-            }
-            });
-        }
-
-        if (btnPrev) {
-            btnPrev.addEventListener('click', () => {
-                currentIndex = (currentIndex - 1 + total) % total;
-                updateCarousel();
-            });
-        }
-
-        if (btnNext) {
-            btnNext.addEventListener('click', () => {
-                currentIndex = (currentIndex + 1) % total;
-                updateCarousel();
-            });
-        }
-
-        updateCarousel();
-    }
 
     // ПЕРЕКЛЮЧЕНИЕ ГОРОДОВ
     function switchBranch(city) {
